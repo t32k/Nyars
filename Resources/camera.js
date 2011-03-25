@@ -1,14 +1,15 @@
 var win = Ti.UI.currentWindow;
 
+var blobImage;
+
 var ears = Ti.UI.createImageView({
-  image: "images/ears.png",
-  width: 213,
-  height: 95,
-  top: 30
+  image: 'images/ears_'+ Ti.App.earsColor +'.png',
+  width: 186,
+  height: 85,
+  top: 45
 });
 
 var overlay = Ti.UI.createView();
-
 overlay.add(ears);
 
 var btOpenCamera = Ti.UI.createButton({
@@ -27,17 +28,15 @@ var toolbar = Ti.UI.createToolbar({
   items: [flexSpace, btOpenCamera, flexSpace, btAction, flexSpace],
   bottom: 0,
   borderTop: true,
-  barColor: "#000",
+  barColor: '#000',
   translucent: true
 });
 
-var exportSelect = Ti.UI.createOptionDialog({
-  options: ["Twitter", "E-Mail", "Cancel"],
+var shareSelect = Ti.UI.createOptionDialog({
+  options: ['Twitter', 'E-Mail', 'Cancel'],
   cancel: 2,
-  title: "Share"
+  title: 'Share'
 });
-
-var blobImage;
 
 var conf = {
   success: function (event) {
@@ -50,7 +49,7 @@ var conf = {
     });
     cameraView.add(overlay);
     var imageNew = cameraView.toImage(function (e) {
-      var filename1 = Ti.Filesystem.applicationDataDirectory + "/nyar.png";
+      var filename1 = Ti.Filesystem.applicationDataDirectory + '/nyar.png';
       f = Ti.Filesystem.getFile(filename1);
       f.write(e.blob);
       Ti.Media.saveToPhotoGallery(f);
@@ -65,12 +64,12 @@ var conf = {
   },
   error: function (error) {
     var a = Ti.UI.createAlertDialog({
-      title: "(´・ω・｀)"
+      title: '(´・ω・｀)'
     });
     if (error.code == Ti.Media.NO_CAMERA) {
-      a.setMessage("Camera is not found on device.");
+      a.setMessage('Camera is not found on device.');
     } else {
-      a.setMessage("Error: " + error.code);
+      a.setMessage('Error: ' + error.code);
     }
     a.show();
     win.close();
@@ -84,17 +83,15 @@ var conf = {
   autohide: false
 };
 
-btOpenCamera.addEventListener("click", function () {
+btOpenCamera.addEventListener('click', function () {
   Ti.Media.showCamera(conf);
-	win.remove(cameraView);
-	win.remove(toolbar);	
 });
 
-btAction.addEventListener("click", function () {
-  exportSelect.show();
+btAction.addEventListener('click', function () {
+  shareSelect.show();
 });
 
-exportSelect.addEventListener("click", function (e) {
+shareSelect.addEventListener('click', function (e) {
   switch (e.index) {
   case 0:
     // Twitter
@@ -102,9 +99,9 @@ exportSelect.addEventListener("click", function (e) {
   case 1:
     // E-Mail　
     var mailDialog = Ti.UI.createEmailDialog();
-    mailDialog.setMessageBody("Nyar! Nyar!");
+    mailDialog.setMessageBody('Nyar! Nyar!');
     mailDialog.addAttachment(blobImage);
-    mailDialog.setBarColor("#000");
+    mailDialog.setBarColor('#000');
     mailDialog.open();
     break;
   }
