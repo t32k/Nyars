@@ -1,29 +1,22 @@
 var win = Ti.UI.currentWindow;
-
 var blobImage;
-
 var ears = Ti.UI.createImageView({
-  image: 'images/ears_'+ Ti.App.earsColor +'.png',
+  image: 'images/ears_' + Ti.App.earsColor + '.png',
   width: 186,
   height: 85,
   top: 45
 });
-
 var overlay = Ti.UI.createView();
 overlay.add(ears);
-
 var btOpenCamera = Ti.UI.createButton({
   systemButton: Ti.UI.iPhone.SystemButton.CAMERA
 });
-
 var flexSpace = Ti.UI.createButton({
   systemButton: Ti.UI.iPhone.SystemButton.FLEXIBLE_SPACE
 });
-
 var btAction = Ti.UI.createButton({
   systemButton: Ti.UI.iPhone.SystemButton.ACTION
 });
-
 var toolbar = Ti.UI.createToolbar({
   items: [flexSpace, btOpenCamera, flexSpace, btAction, flexSpace],
   bottom: 0,
@@ -31,13 +24,14 @@ var toolbar = Ti.UI.createToolbar({
   barColor: '#000',
   translucent: true
 });
-
 var shareSelect = Ti.UI.createOptionDialog({
   options: ['Twitter', 'E-Mail', 'Cancel'],
   cancel: 2,
-  title: 'Share'
+  title: 'Choose Export Media.'
 });
-
+var cameraScale = 480.0 / 480;
+var cameraOffset = (480.0 - 390.0) / 2.0;
+var cameraZoom = Titanium.UI.create2DMatrix().scale(cameraScale).translate(0.0, cameraOffset);
 var conf = {
   success: function (event) {
     var cameraView = Ti.UI.createImageView({
@@ -45,11 +39,12 @@ var conf = {
       height: 480,
       top: 0,
       left: 0,
+      transform: Titanium.UI.create2DMatrix().scale(cameraScale, 1.0),
       image: event.media
     });
     cameraView.add(overlay);
     var imageNew = cameraView.toImage(function (e) {
-      var filename1 = Ti.Filesystem.applicationDataDirectory + '/nyar.png';
+      var filename1 = Ti.Filesystem.applicationDataDirectory + '/nyars.png';
       f = Ti.Filesystem.getFile(filename1);
       f.write(e.blob);
       Ti.Media.saveToPhotoGallery(f);
@@ -74,8 +69,10 @@ var conf = {
     a.show();
     win.close();
   },
+  fullscreen: true,
   overlay: overlay,
   showControls: true,
+  transform: cameraZoom,
   mediaTypes: Ti.Media.MEDIA_TYPE_PHOTO,
   saveToPhotoGallery: false,
   allowEditing: false,
@@ -83,14 +80,17 @@ var conf = {
   autohide: false
 };
 
+// Add event part.
 btOpenCamera.addEventListener('click', function () {
-  Ti.Media.showCamera(conf);
+  var cameraWindow = Ti.UI.createWindow({
+    url: 'camera.js',
+    title: 'Nyar! Nyar!'
+  });
+  cameraWindow.open();
 });
-
 btAction.addEventListener('click', function () {
   shareSelect.show();
 });
-
 shareSelect.addEventListener('click', function (e) {
   switch (e.index) {
   case 0:
@@ -106,5 +106,4 @@ shareSelect.addEventListener('click', function (e) {
     break;
   }
 });
-
 Ti.Media.showCamera(conf);
