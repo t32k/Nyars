@@ -5,7 +5,7 @@ reporting an issue to help us understand your environment, build settings
 and aid in debugging. Please attach this log to any issue that you report.
 ================================================================================
 
-Starting build at 03/22/11 00:56
+Starting build at 03/25/11 13:54
 
 Build details:
 
@@ -26,7 +26,7 @@ Script arguments:
    iphone
 
 Building from: /Library/Application Support/Titanium/mobilesdk/osx/1.6.1/iphone
-Platform: Darwin Kernel Version 10.6.0: Wed Nov 10 18:13:17 PST 2010; root:xnu-1504.9.26~3/RELEASE_I386
+Platform: Darwin Kernel Version 10.7.0: Sat Jan 29 15:17:16 PST 2011; root:xnu-1504.9.37~1/RELEASE_I386
 
 Xcode path is: /Developer
 
@@ -707,24 +707,27 @@ File listing for /Users/t32k/Documents/workspace/Nyars
   build/iphone/lib/libTiCore.a                                                                                             [200377020]
   build/iphone/lib/libtiverify.a                                                                                           [57164] 
   build/iphone/Nyars.xcodeproj/project.pbxproj                                                                             [367445]
+  build/iphone/Resources/.version                                                                                          [142]   
   build/iphone/Resources/appicon.png                                                                                       [4275]  
   build/iphone/Resources/Default-Landscape.png                                                                             [517419]
   build/iphone/Resources/Default-Portrait.png                                                                              [551670]
   build/iphone/Resources/Default.png                                                                                       [114262]
   build/iphone/Resources/Default@2x.png                                                                                    [380255]
+  build/iphone/Resources/Entitlements.plist                                                                                [227]   
   build/iphone/Resources/stylesheet.plist                                                                                  [104]   
   Resources/.DS_Store                                                                                                      [6148]  
-  Resources/app.js                                                                                                         [960]   
-  Resources/camera.js                                                                                                      [2490]  
+  Resources/app.js                                                                                                         [982]   
+  Resources/appicon.png                                                                                                    [4777]  
+  Resources/camera.js                                                                                                      [2488]  
+  Resources/images/.DS_Store                                                                                               [6148]  
   Resources/images/bg.jpg                                                                                                  [22477] 
-  Resources/images/ears.png                                                                                                [8875]  
-  Resources/images/tab_camera.png                                                                                          [382]   
-  Resources/images/tab_home.png                                                                                            [3086]  
+  Resources/images/ears.png                                                                                                [17048] 
   Resources/iPhone/.DS_Store                                                                                               [6148]  
-  Resources/iPhone/appicon.png                                                                                             [5275]  
-  Resources/iPhone/appicon@2x.png                                                                                          [15298] 
-  Resources/iPhone/Default.png                                                                                             [60182] 
-  Resources/iPhone/Default@2x.png                                                                                          [149891]
+  Resources/iPhone/512icon.png                                                                                             [126469]
+  Resources/iPhone/appicon.png                                                                                             [4777]  
+  Resources/iPhone/appicon@2x.png                                                                                          [14183] 
+  Resources/iPhone/Default.png                                                                                             [47372] 
+  Resources/iPhone/Default@2x.png                                                                                          [120587]
 ----------------------------------------------------------------------------------------------------------------------------------
 Total files: 196.0 MB
 
@@ -772,7 +775,7 @@ Contents of Info.plist
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1300722979</string>
+	<string>1.0.1301028879</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
         <key>UIPrerenderedIcon</key>
@@ -854,15 +857,15 @@ Build settings from command line:
 === BUILD NATIVE TARGET Nyars OF PROJECT Nyars WITH CONFIGURATION Release ===
 Check dependencies
 
-ProcessInfoPlistFile build/Release-iphoneos/Nyars.app/Info.plist Info.plist
-    cd /Users/t32k/Documents/workspace/Nyars/build/iphone
-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    builtin-infoPlistUtility Info.plist -genpkginfo /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/ResourceRules.plist -o /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Info.plist
-
 CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Release-iphoneos/Nyars.app/ResourceRules.plist
     cd /Users/t32k/Documents/workspace/Nyars/build/iphone
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app
+
+ProcessInfoPlistFile build/Release-iphoneos/Nyars.app/Info.plist Info.plist
+    cd /Users/t32k/Documents/workspace/Nyars/build/iphone
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility Info.plist -genpkginfo /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/ResourceRules.plist -o /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Info.plist
 
 CopyPlistFile build/Release-iphoneos/Nyars.app/stylesheet.plist Resources/stylesheet.plist
     cd /Users/t32k/Documents/workspace/Nyars/build/iphone
@@ -1037,10 +1040,10 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
     setenv LOCAL_DEVELOPER_DIR /Library/Developer
     setenv LOCAL_LIBRARY_DIR /Library
     setenv MACH_O_TYPE mh_execute
-    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J567
-    setenv MAC_OS_X_VERSION_ACTUAL 1066
+    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J869
+    setenv MAC_OS_X_VERSION_ACTUAL 1067
     setenv MAC_OS_X_VERSION_MAJOR 1060
-    setenv MAC_OS_X_VERSION_MINOR 0606
+    setenv MAC_OS_X_VERSION_MINOR 0607
     setenv NATIVE_ARCH armv6
     setenv NATIVE_ARCH_32_BIT i386
     setenv NATIVE_ARCH_64_BIT x86_64
@@ -1198,14 +1201,14 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [INFO] iPhone Device family: iphone
 [INFO] iPhone SDK version: 4.3
 [DEBUG] copy resources from /Users/t32k/Documents/workspace/Nyars/Resources/iphone to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app
+[DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/iphone/512icon.png to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/512icon.png
 [DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/iphone/appicon.png to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon.png
 [DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/iphone/appicon@2x.png to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon@2x.png
 [DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/iphone/Default@2x.png to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default@2x.png
 [DEBUG] copy resources from /Users/t32k/Documents/workspace/Nyars/Resources to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app
 [DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/images/bg.jpg to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/bg.jpg
 [DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/images/ears.png to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/ears.png
-[DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/images/tab_camera.png to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/tab_camera.png
-[DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/images/tab_home.png to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/tab_home.png
+[DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/iPhone/512icon.png to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/512icon.png
 [DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/iPhone/appicon.png to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/appicon.png
 [DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/iPhone/appicon@2x.png to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/appicon@2x.png
 [DEBUG] copying: /Users/t32k/Documents/workspace/Nyars/Resources/iPhone/Default.png to /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default.png
@@ -1272,13 +1275,38 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
-[DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon.png
-[DEBUG] Total length of data found in IDAT chunks    =     5181
+[DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/512icon.png
+[DEBUG] Total length of data found in IDAT chunks    =   126375
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =     7271
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =   145324
+[DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/512icon-pngcrush.png
+[DEBUG] (14.99% IDAT increase)
+[DEBUG] (15.00% filesize increase)
+[DEBUG] CPU time used = 0.168 seconds (decoding 0.018,
+[DEBUG] encoding 0.126, other 0.025 seconds)
+[DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/512icon.png
+[DEBUG] | pngcrush 1.6.4
+[DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+[DEBUG] |    Copyright (C) 2005      Greg Roelofs
+[DEBUG] | This is a free, open-source program.  Permission is irrevocably
+[DEBUG] | granted to everyone to use this version of pngcrush without
+[DEBUG] | payment of any fee.
+[DEBUG] | Executable name is pngcrush
+[DEBUG] | It was built with libpng version 1.2.7, and is
+[DEBUG] | running with  libpng version 1.2.7 - September 12, 2004 (header)
+[DEBUG] |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+[DEBUG] |    Copyright (C) 1996, 1997 Andreas Dilger,
+[DEBUG] |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+[DEBUG] | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+[DEBUG] |    Jean-loup Gailly and Mark Adler.
+[DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
+[DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon.png
+[DEBUG] Total length of data found in IDAT chunks    =     4683
+[DEBUG] Adding an opaque alpha channel.
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =     6808
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon-pngcrush.png
-[DEBUG] (40.34% IDAT increase)
-[DEBUG] (39.92% filesize increase)
+[DEBUG] (45.38% IDAT increase)
+[DEBUG] (44.82% filesize increase)
 [DEBUG] CPU time used = 0.009 seconds (decoding 0.001,
 [DEBUG] encoding 0.002, other 0.006 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon.png
@@ -1298,12 +1326,12 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon@2x.png
-[DEBUG] Total length of data found in IDAT chunks    =    15204
+[DEBUG] Total length of data found in IDAT chunks    =    14089
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    20941
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    19692
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon@2x-pngcrush.png
-[DEBUG] (37.73% IDAT increase)
-[DEBUG] (37.61% filesize increase)
+[DEBUG] (39.77% IDAT increase)
+[DEBUG] (39.62% filesize increase)
 [DEBUG] CPU time used = 0.018 seconds (decoding 0.002,
 [DEBUG] encoding 0.009, other 0.008 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon@2x.png
@@ -1323,14 +1351,14 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default.png
-[DEBUG] Total length of data found in IDAT chunks    =    60088
+[DEBUG] Total length of data found in IDAT chunks    =    47278
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    69563
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    53297
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default-pngcrush.png
-[DEBUG] (15.77% IDAT increase)
-[DEBUG] (15.77% filesize increase)
-[DEBUG] CPU time used = 0.120 seconds (decoding 0.012,
-[DEBUG] encoding 0.091, other 0.017 seconds)
+[DEBUG] (12.73% IDAT increase)
+[DEBUG] (12.74% filesize increase)
+[DEBUG] CPU time used = 0.118 seconds (decoding 0.011,
+[DEBUG] encoding 0.091, other 0.016 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -1348,14 +1376,14 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default@2x.png
-[DEBUG] Total length of data found in IDAT chunks    =   149797
+[DEBUG] Total length of data found in IDAT chunks    =   120493
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =   163303
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =   129766
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default@2x-pngcrush.png
-[DEBUG] (9.02% IDAT increase)
-[DEBUG] (9.02% filesize increase)
-[DEBUG] CPU time used = 0.308 seconds (decoding 0.038,
-[DEBUG] encoding 0.226, other 0.043 seconds)
+[DEBUG] (7.70% IDAT increase)
+[DEBUG] (7.70% filesize increase)
+[DEBUG] CPU time used = 0.296 seconds (decoding 0.037,
+[DEBUG] encoding 0.216, other 0.043 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default@2x.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -1373,13 +1401,13 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/ears.png
-[DEBUG] Total length of data found in IDAT chunks    =     8781
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =     9945
+[DEBUG] Total length of data found in IDAT chunks    =    16938
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    17803
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/ears-pngcrush.png
-[DEBUG] (13.26% IDAT increase)
-[DEBUG] (13.30% filesize increase)
-[DEBUG] CPU time used = 0.029 seconds (decoding 0.002,
-[DEBUG] encoding 0.020, other 0.007 seconds)
+[DEBUG] (5.11% IDAT increase)
+[DEBUG] (5.17% filesize increase)
+[DEBUG] CPU time used = 0.041 seconds (decoding 0.003,
+[DEBUG] encoding 0.029, other 0.009 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/ears.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -1396,39 +1424,16 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
-[DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/tab_camera.png
-[DEBUG] Total length of data found in IDAT chunks    =      288
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =      198
-[DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/tab_camera-pngcrush.png
-[DEBUG] (31.25% IDAT reduction)
-[DEBUG] (19.37% filesize reduction)
-[DEBUG] CPU time used = 0.002 seconds (decoding 0.000,
-[DEBUG] encoding 0.000, other 0.002 seconds)
-[DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/tab_camera.png
-[DEBUG] | pngcrush 1.6.4
-[DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-[DEBUG] |    Copyright (C) 2005      Greg Roelofs
-[DEBUG] | This is a free, open-source program.  Permission is irrevocably
-[DEBUG] | granted to everyone to use this version of pngcrush without
-[DEBUG] | payment of any fee.
-[DEBUG] | Executable name is pngcrush
-[DEBUG] | It was built with libpng version 1.2.7, and is
-[DEBUG] | running with  libpng version 1.2.7 - September 12, 2004 (header)
-[DEBUG] |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-[DEBUG] |    Copyright (C) 1996, 1997 Andreas Dilger,
-[DEBUG] |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-[DEBUG] | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-[DEBUG] |    Jean-loup Gailly and Mark Adler.
-[DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
-[DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/tab_home.png
-[DEBUG] Total length of data found in IDAT chunks    =      313
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =      276
-[DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/tab_home-pngcrush.png
-[DEBUG] (11.82% IDAT reduction)
-[DEBUG] (0.87% filesize reduction)
-[DEBUG] CPU time used = 0.003 seconds (decoding 0.000,
-[DEBUG] encoding 0.000, other 0.002 seconds)
-[DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/tab_home.png
+[DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/512icon.png
+[DEBUG] Total length of data found in IDAT chunks    =   126375
+[DEBUG] Adding an opaque alpha channel.
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =   145324
+[DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/512icon-pngcrush.png
+[DEBUG] (14.99% IDAT increase)
+[DEBUG] (15.00% filesize increase)
+[DEBUG] CPU time used = 0.167 seconds (decoding 0.018,
+[DEBUG] encoding 0.126, other 0.024 seconds)
+[DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/512icon.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
 [DEBUG] |    Copyright (C) 2005      Greg Roelofs
@@ -1445,12 +1450,12 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/appicon.png
-[DEBUG] Total length of data found in IDAT chunks    =     5181
+[DEBUG] Total length of data found in IDAT chunks    =     4683
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =     7271
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =     6808
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/appicon-pngcrush.png
-[DEBUG] (40.34% IDAT increase)
-[DEBUG] (39.92% filesize increase)
+[DEBUG] (45.38% IDAT increase)
+[DEBUG] (44.82% filesize increase)
 [DEBUG] CPU time used = 0.009 seconds (decoding 0.001,
 [DEBUG] encoding 0.002, other 0.006 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/appicon.png
@@ -1470,14 +1475,14 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/appicon@2x.png
-[DEBUG] Total length of data found in IDAT chunks    =    15204
+[DEBUG] Total length of data found in IDAT chunks    =    14089
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    20941
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    19692
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/appicon@2x-pngcrush.png
-[DEBUG] (37.73% IDAT increase)
-[DEBUG] (37.61% filesize increase)
+[DEBUG] (39.77% IDAT increase)
+[DEBUG] (39.62% filesize increase)
 [DEBUG] CPU time used = 0.018 seconds (decoding 0.002,
-[DEBUG] encoding 0.008, other 0.007 seconds)
+[DEBUG] encoding 0.008, other 0.008 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/appicon@2x.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -1495,14 +1500,14 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default.png
-[DEBUG] Total length of data found in IDAT chunks    =    60088
+[DEBUG] Total length of data found in IDAT chunks    =    47278
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    69563
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    53297
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default-pngcrush.png
-[DEBUG] (15.77% IDAT increase)
-[DEBUG] (15.77% filesize increase)
-[DEBUG] CPU time used = 0.120 seconds (decoding 0.012,
-[DEBUG] encoding 0.091, other 0.017 seconds)
+[DEBUG] (12.73% IDAT increase)
+[DEBUG] (12.74% filesize increase)
+[DEBUG] CPU time used = 0.119 seconds (decoding 0.011,
+[DEBUG] encoding 0.091, other 0.016 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -1520,14 +1525,14 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default@2x.png
-[DEBUG] Total length of data found in IDAT chunks    =   149797
+[DEBUG] Total length of data found in IDAT chunks    =   120493
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =   163303
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =   129766
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default@2x-pngcrush.png
-[DEBUG] (9.02% IDAT increase)
-[DEBUG] (9.02% filesize increase)
-[DEBUG] CPU time used = 0.307 seconds (decoding 0.038,
-[DEBUG] encoding 0.226, other 0.043 seconds)
+[DEBUG] (7.70% IDAT increase)
+[DEBUG] (7.70% filesize increase)
+[DEBUG] CPU time used = 0.297 seconds (decoding 0.037,
+[DEBUG] encoding 0.217, other 0.043 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default@2x.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -4258,29 +4263,29 @@ CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiU
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-ddfqrxvawbrwhybaydlawktxjzzx/Nyars_Prefix.pch -c /Users/t32k/Documents/workspace/Nyars/build/iphone/Classes/TiUITableViewCellSelectionStyleProxy.m -o /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiUITableViewCellSelectionStyleProxy.o
 
-CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiUIMaskedImage.o Classes/TiUIMaskedImage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-    cd /Users/t32k/Documents/workspace/Nyars/build/iphone
-    setenv LANG en_US.US-ASCII
-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-ddfqrxvawbrwhybaydlawktxjzzx/Nyars_Prefix.pch -c /Users/t32k/Documents/workspace/Nyars/build/iphone/Classes/TiUIMaskedImage.m -o /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiUIMaskedImage.o
-
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiUIMaskedImageProxy.o Classes/TiUIMaskedImageProxy.m normal armv7 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Documents/workspace/Nyars/build/iphone
     setenv LANG en_US.US-ASCII
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-ddfqrxvawbrwhybaydlawktxjzzx/Nyars_Prefix.pch -c /Users/t32k/Documents/workspace/Nyars/build/iphone/Classes/TiUIMaskedImageProxy.m -o /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiUIMaskedImageProxy.o
 
-CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiNetworkBonjourServiceProxy.o Classes/TiNetworkBonjourServiceProxy.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiUIMaskedImage.o Classes/TiUIMaskedImage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Documents/workspace/Nyars/build/iphone
     setenv LANG en_US.US-ASCII
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-ddfqrxvawbrwhybaydlawktxjzzx/Nyars_Prefix.pch -c /Users/t32k/Documents/workspace/Nyars/build/iphone/Classes/TiNetworkBonjourServiceProxy.m -o /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiNetworkBonjourServiceProxy.o
+    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-ddfqrxvawbrwhybaydlawktxjzzx/Nyars_Prefix.pch -c /Users/t32k/Documents/workspace/Nyars/build/iphone/Classes/TiUIMaskedImage.m -o /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiUIMaskedImage.o
 
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiNetworkBonjourBrowserProxy.o Classes/TiNetworkBonjourBrowserProxy.m normal armv7 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Documents/workspace/Nyars/build/iphone
     setenv LANG en_US.US-ASCII
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-ddfqrxvawbrwhybaydlawktxjzzx/Nyars_Prefix.pch -c /Users/t32k/Documents/workspace/Nyars/build/iphone/Classes/TiNetworkBonjourBrowserProxy.m -o /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiNetworkBonjourBrowserProxy.o
+
+CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiNetworkBonjourServiceProxy.o Classes/TiNetworkBonjourServiceProxy.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+    cd /Users/t32k/Documents/workspace/Nyars/build/iphone
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Documents/workspace/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-ddfqrxvawbrwhybaydlawktxjzzx/Nyars_Prefix.pch -c /Users/t32k/Documents/workspace/Nyars/build/iphone/Classes/TiNetworkBonjourServiceProxy.m -o /Users/t32k/Documents/workspace/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiNetworkBonjourServiceProxy.o
 
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiNetworkTCPSocketProxy.o Classes/TiNetworkTCPSocketProxy.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
     cd /Users/t32k/Documents/workspace/Nyars/build/iphone
@@ -4919,10 +4924,10 @@ PhaseScriptExecution Post-Compile build/Nyars.build/Release-iphoneos/Nyars.build
     setenv LOCAL_DEVELOPER_DIR /Library/Developer
     setenv LOCAL_LIBRARY_DIR /Library
     setenv MACH_O_TYPE mh_execute
-    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J567
-    setenv MAC_OS_X_VERSION_ACTUAL 1066
+    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J869
+    setenv MAC_OS_X_VERSION_ACTUAL 1067
     setenv MAC_OS_X_VERSION_MAJOR 1060
-    setenv MAC_OS_X_VERSION_MINOR 0606
+    setenv MAC_OS_X_VERSION_MINOR 0607
     setenv NATIVE_ARCH armv6
     setenv NATIVE_ARCH_32_BIT i386
     setenv NATIVE_ARCH_64_BIT x86_64

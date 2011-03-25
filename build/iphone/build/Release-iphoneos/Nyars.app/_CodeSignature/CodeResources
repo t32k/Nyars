@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>512icon.png</key>
+		<data>
+		xZUPZeeNhOCh2PN5on3Y+5O4G9E=
+		</data>
 		<key>Default.png</key>
 		<data>
-		7963pt+tDgXKzWx7Ao94N21lWo4=
+		eulI3OQDT4+EL69VoYvNEsN7lUU=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		oKHUlssUWvZaUaR69C+AWdwE9gM=
+		4Gq47iBZ+/t9031oaFZkHFxOyvA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -18,31 +22,35 @@
 		</data>
 		<key>appicon.png</key>
 		<data>
-		C0UuxbFignYGATrh79gYo2yS0ZQ=
+		M4vVcmI5FjzRnb6q56a/oL/3jnU=
 		</data>
 		<key>appicon@2x.png</key>
 		<data>
-		su/ejfkfAaPUreO0gAcBeLe7GqA=
+		U/hRYL9ZfJkfEbm6QxWXwfTAcak=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		XdBZ5BF0HilTfzOzaDZhgrYmws4=
 		</data>
+		<key>iPhone/512icon.png</key>
+		<data>
+		xZUPZeeNhOCh2PN5on3Y+5O4G9E=
+		</data>
 		<key>iPhone/Default.png</key>
 		<data>
-		7963pt+tDgXKzWx7Ao94N21lWo4=
+		eulI3OQDT4+EL69VoYvNEsN7lUU=
 		</data>
 		<key>iPhone/Default@2x.png</key>
 		<data>
-		oKHUlssUWvZaUaR69C+AWdwE9gM=
+		4Gq47iBZ+/t9031oaFZkHFxOyvA=
 		</data>
 		<key>iPhone/appicon.png</key>
 		<data>
-		C0UuxbFignYGATrh79gYo2yS0ZQ=
+		M4vVcmI5FjzRnb6q56a/oL/3jnU=
 		</data>
 		<key>iPhone/appicon@2x.png</key>
 		<data>
-		su/ejfkfAaPUreO0gAcBeLe7GqA=
+		U/hRYL9ZfJkfEbm6QxWXwfTAcak=
 		</data>
 		<key>images/bg.jpg</key>
 		<data>
@@ -50,15 +58,7 @@
 		</data>
 		<key>images/ears.png</key>
 		<data>
-		g+F3gDTfjuDsgUSpJdjVntzcZMk=
-		</data>
-		<key>images/tab_camera.png</key>
-		<data>
-		B2HqdLO5ibOhLu1HoGE5O915T14=
-		</data>
-		<key>images/tab_home.png</key>
-		<data>
-		fiqx+AAMtRv+YiABtamgDhPNSC8=
+		mThjjQ5BFl51pesPPW1BBeQ/14w=
 		</data>
 		<key>modules/ui/images/badge.png</key>
 		<data>

@@ -7,7 +7,7 @@ var homeWindow = Ti.UI.createWindow({
 });
 var label = Ti.UI.createLabel({
     color: "#fff",
-    text: "NEKOMIMI IS FINE!",
+    text: "かめらで猫耳しちゃいなよ！",
 		textAlign: "center"
 });
 

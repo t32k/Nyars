@@ -2,9 +2,9 @@ var win = Ti.UI.currentWindow;
 
 var ears = Ti.UI.createImageView({
   image: "images/ears.png",
-  width: 228,
-  height: 120,
-  top: 35
+  width: 213,
+  height: 95,
+  top: 30
 });
 
 var overlay = Ti.UI.createView();
@@ -34,7 +34,7 @@ var toolbar = Ti.UI.createToolbar({
 var exportSelect = Ti.UI.createOptionDialog({
   options: ["Twitter", "E-Mail", "Cancel"],
   cancel: 2,
-  title: "Export"
+  title: "Share"
 });
 
 var blobImage;
