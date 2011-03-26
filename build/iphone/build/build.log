@@ -5,7 +5,7 @@ reporting an issue to help us understand your environment, build settings
 and aid in debugging. Please attach this log to any issue that you report.
 ================================================================================
 
-Starting build at 03/26/11 01:55
+Starting build at 03/26/11 04:23
 
 Build details:
 
@@ -145,12 +145,12 @@ File listing for /Users/t32k/Github/Nyars
   manifest                                                                                                                 [181]   
   README                                                                                                                   [551]   
   tiapp.xml                                                                                                                [1151]  
-  .git/COMMIT_EDITMSG                                                                                                      [59]    
+  .git/COMMIT_EDITMSG                                                                                                      [82]    
   .git/config                                                                                                              [273]   
   .git/description                                                                                                         [73]    
   .git/FETCH_HEAD                                                                                                          [83]    
   .git/HEAD                                                                                                                [23]    
-  .git/index                                                                                                               [152512]
+  .git/index                                                                                                               [152656]
   .git/ORIG_HEAD                                                                                                           [41]    
   .git/packed-refs                                                                                                         [94]    
   .git/hooks/applypatch-msg.sample                                                                                         [452]   
@@ -164,79 +164,634 @@ File listing for /Users/t32k/Github/Nyars
   .git/hooks/prepare-commit-msg.sample                                                                                     [1239]  
   .git/hooks/update.sample                                                                                                 [3611]  
   .git/info/exclude                                                                                                        [250]   
-  .git/logs/HEAD                                                                                                           [691]   
-  .git/logs/refs/heads/master                                                                                              [691]   
-  .git/logs/refs/remotes/origin/master                                                                                     [502]   
+  .git/logs/HEAD                                                                                                           [864]   
+  .git/logs/refs/heads/master                                                                                              [864]   
+  .git/logs/refs/remotes/origin/master                                                                                     [652]   
+  .git/objects/00/1b2fd2c3523227ca57916a0d5118b3b3406269                                                                   [41741] 
+  .git/objects/00/218c714324d3a4f5ffda2fd1b2329b44e591a0                                                                   [2420]  
+  .git/objects/00/5b3596dc27a94e857bfc32decb3d9137a8550a                                                                   [2611930]
+  .git/objects/00/d143ebe0707f4f64d6ad8eb4dbfe927ac68136                                                                   [3315]  
+  .git/objects/00/da63a98c8bcc6bc33b7a2f1c466d72e43d6b15                                                                   [41413] 
+  .git/objects/00/eb80f2c37aa6c2aeb887681654c8bf782c5478                                                                   [2417]  
+  .git/objects/01/28275c9dad003dd55f574c5eb148018bccaac3                                                                   [553]   
+  .git/objects/01/5c3c40cd0a01d10d640885d73e072bb4d7f282                                                                   [2431]  
+  .git/objects/01/a30aaff54ac93cbbc2b24e0857bd0945343d18                                                                   [6790]  
+  .git/objects/02/4ab66e77321da67cbd50f3ef5b1cf8e1b15fa9                                                                   [2408]  
+  .git/objects/02/77eae951508de71d9bdccf12103212dbcbe8ee                                                                   [79]    
   .git/objects/02/c047dd2fcd1fb833eccb688632357f94bf6695                                                                   [309]   
+  .git/objects/02/f3c3ac4b0f914c3955774f7db6ef58e712e99b                                                                   [16293721]
+  .git/objects/03/1e0525613cf5036efba5775e4b45a7af6aee12                                                                   [2421]  
+  .git/objects/03/e87f62c58212c338117228df09e05c66669b26                                                                   [2409]  
+  .git/objects/04/356f0af1e6aee3be43f52263cfa991bcc45fc1                                                                   [2114]  
+  .git/objects/04/6055cdef7e62b2e58e0f25c60c8ca180c0a586                                                                   [2422]  
+  .git/objects/04/6f935da76f857948d5fd6b755c2343387e5504                                                                   [2408]  
+  .git/objects/05/6d5582d9f9542a5f36d047d4f8e499bf5cfccd                                                                   [18267] 
+  .git/objects/05/bc3722a48494bd234c59ed66154d8ba69be170                                                                   [10031] 
+  .git/objects/05/d708a6566fcb593d832dd4e3e0bdfc1fc1fd88                                                                   [3564]  
+  .git/objects/06/645f31133549b2de5169bc5eda85312a79529a                                                                   [21347] 
+  .git/objects/06/956c53e2f243ab7c1f12c2307ad624b70eba71                                                                   [2419]  
   .git/objects/07/02e3a2789520226234120d9743e70904f8dcc9                                                                   [177]   
+  .git/objects/07/a0321c9d0cbb5b76e364540d71448f038efbff                                                                   [25312] 
+  .git/objects/07/c7ba3142e93a5630cb55910ffcc9a18fb62503                                                                   [2417]  
+  .git/objects/09/831a11ab6534bff262a3678e63a5262a106eeb                                                                   [4992]  
+  .git/objects/0a/6ce187139d2842c91cae3f2ffb5a24ba856143                                                                   [8146]  
+  .git/objects/0a/76031694f3ef626f3c78453bafefc84021f435                                                                   [2412]  
+  .git/objects/0a/c162ae6f5e8749ffaf28b99e4f74ac8d7ad41a                                                                   [2421]  
   .git/objects/0b/72b65b8487323ad82644a91d370ba20de11dee                                                                   [193]   
+  .git/objects/0b/7441e49b814c93797a740db61eebd744839101                                                                   [2430]  
+  .git/objects/0b/86611722e2abde6f4fa2e327dacc17d9c951a2                                                                   [16593] 
+  .git/objects/0b/ae14e7e8425a20657b242f1c1b4f11d1d01f65                                                                   [2409]  
+  .git/objects/0b/ecbf70ede3186e9eaca592770169e34b798e22                                                                   [11290] 
+  .git/objects/0c/4f8abd60f6c4f4757705deb21a8e5b0672e99c                                                                   [2425]  
+  .git/objects/0d/6046399b641a0fca868cd2da5089323ae0991a                                                                   [45096] 
   .git/objects/0d/b1aacbd2f11bdf0ea290979e149fdd2f7965e7                                                                   [182]   
   .git/objects/0d/ba18bd92e1edfb5465f96804304dfdc8609e6c                                                                   [6095]  
+  .git/objects/0e/24edc147af40d04d77ae8cae90c52ebd6dd52a                                                                   [71063] 
+  .git/objects/0e/7a21636ef8b3ae025b07ee2099a215ff3df501                                                                   [2407]  
+  .git/objects/0f/72cbc893d6a12d8a20bb73718f00c122adeeae                                                                   [12858] 
+  .git/objects/0f/dc7690fc534165310fbefd89f0889a012fabb4                                                                   [3299]  
+  .git/objects/10/2162bba3b848a35d8f986b57ad571366489269                                                                   [2422]  
+  .git/objects/10/86eb3272e633f93399f16fa627f1864b71d569                                                                   [2416]  
+  .git/objects/11/61db28a8851b75ced3c0440ea09dc4c086ec00                                                                   [13700] 
+  .git/objects/11/ae70137784180ad9723ad846600c5dee904949                                                                   [2423]  
+  .git/objects/13/0ff6f1a4381de8b02d651443b91bdad212fb49                                                                   [6301]  
+  .git/objects/13/368ba828eb0d2c6e7eff380ea689711780ca09                                                                   [1957557]
+  .git/objects/13/5cf93ca3d270f215ba8e302a8458dbf6389b73                                                                   [2425]  
+  .git/objects/13/7787c95f75145adf6f57b51e18246457242131                                                                   [35584] 
+  .git/objects/14/99e18d0e63c0a778670a30cd512acbe32f17b5                                                                   [62123] 
   .git/objects/14/c673c807ceb5c51f7271227bfd6a9b33398987                                                                   [177]   
+  .git/objects/14/f29d3602496304f7b2651e8900ef60c6d7a4ce                                                                   [20262] 
+  .git/objects/15/5d1358b4f426af9e515504436961e0783973d3                                                                   [50162] 
+  .git/objects/15/99956acd334bd25a23902328e1f19b6cf1426d                                                                   [2418]  
+  .git/objects/17/1af2c5ff34033761a184931f2e5a3681a1e9ee                                                                   [7533]  
+  .git/objects/17/332d6bf4442c250f7816fcc579b2b49c7c4897                                                                   [8223]  
+  .git/objects/17/68ccbc07576e3195278ffd92c56d259ba11958                                                                   [2424]  
+  .git/objects/17/c2d6332012453fbddbc47ffd026e3a89261ecc                                                                   [2419]  
+  .git/objects/18/cae9a33cf9b39360f84d678c6cc56eb54e5493                                                                   [30336] 
+  .git/objects/19/7425de3268462fe11755c01c20e206fb3864d6                                                                   [2423]  
   .git/objects/19/c53d52871f4b27a855e51ae5a1eb0c26fb3bfb                                                                   [13810] 
+  .git/objects/19/f75f515484e0d94d1ce073e08990309ccd0f2d                                                                   [15862] 
+  .git/objects/1a/1428b9605680dfe2bb235853cc9a9c7b5a5222                                                                   [20258] 
+  .git/objects/1a/d49d9963bfdff0a0b84b96c1365ccebfe6bb4c                                                                   [17204] 
+  .git/objects/1b/3230362d17a1ae6ea7e8254b595a528590b86b                                                                   [2409]  
+  .git/objects/1b/58c5abb2918741f58c2de26718bc9221c2eb4f                                                                   [2420]  
+  .git/objects/1b/69896f0e52654e026dd2b7904952a74f45bee4                                                                   [21183] 
+  .git/objects/1b/ba39a91b22c09dcc9783df8175c412c4fc67c0                                                                   [2410]  
+  .git/objects/1d/1a8fd770b76f817868020c901c860393db68df                                                                   [2406]  
+  .git/objects/1d/fae1f099d1ddec34876baa41eafbbe15c02704                                                                   [2418]  
   .git/objects/1e/0d1b8a2c744c1e66763d334ebd1a5e5f45a617                                                                   [120]   
   .git/objects/1e/3f2567eb7dc04d0db39a71d2e56eecd48a7aed                                                                   [554]   
+  .git/objects/1e/f4856a0889f0b9cdf17e4017a8885bfbd2c642                                                                   [3581]  
+  .git/objects/1f/26b4c998824ee56c33b7dae824a2881a9ec10c                                                                   [12404] 
+  .git/objects/1f/48a01ae2e3971471cebd5b20f6e18c000686f9                                                                   [31563] 
+  .git/objects/1f/5ab0241a355edf955342b3ec2ea209ea2c1f29                                                                   [1191745]
+  .git/objects/1f/78a665c02d146093d3d0e87a6507dd446761a3                                                                   [2433]  
+  .git/objects/1f/ea011fffee434a175b309f6e4ecd7443b74956                                                                   [2406]  
+  .git/objects/20/32af515bd2c235a6f14d44c6ed291d8e733441                                                                   [1692]  
+  .git/objects/20/754024af25b8bf76e6bcc55b1d40a080e105c9                                                                   [2418]  
+  .git/objects/20/945ae97052f90dad3c98cb535a88e7bd68e020                                                                   [2411]  
+  .git/objects/20/b60e18d33def2b9ce1110d15a6bd31dc64a6e0                                                                   [2418]  
+  .git/objects/20/bc8c2c9513ddbe175badf847e3fac0c389d5f8                                                                   [20694] 
+  .git/objects/20/cc96169bbd461c86487e281a78a3149d13103f                                                                   [9323]  
+  .git/objects/21/30f492f3121c741a3ecdeac915cd73e9243620                                                                   [4974]  
+  .git/objects/21/50481bf3ff77ddbc21febdda9ebdffbaba9e81                                                                   [2419]  
   .git/objects/21/98daa30bc5b53f935792a1e6763f9c51f38cf4                                                                   [320]   
+  .git/objects/23/023c6006d03d103bddcc8118eea49b005e3322                                                                   [2408]  
+  .git/objects/23/36f8786ae17bdd93d824f2853fd39a816cadd1                                                                   [2420]  
+  .git/objects/23/56486392df68808cc639ee6123f6c679e3be7e                                                                   [30307] 
+  .git/objects/23/6ae87130d817d37263aacd2d74b8e1025a0e48                                                                   [40191] 
+  .git/objects/24/56aed97d9d980efca82ae5a40019cf6f3c2db4                                                                   [35194] 
+  .git/objects/25/3788b11703307125dacafbc6907a5e730bbca4                                                                   [3258]  
+  .git/objects/26/0d60de5f6e52b9087d18ec8a4e581f76e27f7b                                                                   [10139] 
+  .git/objects/26/404a5ba17d3b12a82b7d62afa98051aa6da73d                                                                   [9951]  
+  .git/objects/26/d36b4efd2d5823afa7a77fca788a0160023cbe                                                                   [2420]  
+  .git/objects/27/1df382472b5ae8d438c50446ceda7f18b0f2ad                                                                   [47621] 
+  .git/objects/27/4f86354d7fcc4dfc85e67658040f1c7c463156                                                                   [6127]  
+  .git/objects/27/6507c1eeb2fe3a13cc3b5fce5c9342fb609558                                                                   [2421]  
+  .git/objects/27/8ca252a67a478850826402366899a80fbb3640                                                                   [127160]
+  .git/objects/27/e34ee322666ede4561a9ef64088f542c14765b                                                                   [2410]  
+  .git/objects/28/f8dd6a893c8320a25d82e47d6c574382a3bdb8                                                                   [2420]  
+  .git/objects/29/36a2e2e703b2f34945b146ae417c96cd5e6a94                                                                   [2420]  
+  .git/objects/29/5daad4fabddfdc793b7a517e8fc01fa9ede344                                                                   [2417]  
+  .git/objects/29/f1bbe9cb81022c21cc72cbe44d49a71c078aaf                                                                   [21343] 
+  .git/objects/2b/a914380eb92c74297773dd18e73e9179405a04                                                                   [10189] 
+  .git/objects/2b/e124a2d313001fb422c6e11ae7207f8466c86a                                                                   [8511]  
+  .git/objects/2b/fb860f74143e89f15388d4815666f535bdff6a                                                                   [17047] 
+  .git/objects/2c/6b1bef0bda4a2345ac288e01cb621d995ea1d7                                                                   [2422]  
+  .git/objects/2c/bd383bbbdeb64b7bc9dc4f4164eb066d98f8b3                                                                   [2422]  
+  .git/objects/2c/dffc392082b73b456f0e0705a3d7843af7f2f7                                                                   [3271]  
+  .git/objects/2c/eafb54977d907fdbe11318578dc76f96c9798e                                                                   [2418]  
+  .git/objects/2d/4327a686d0aed24cda4e732cc4338a3e786c6f                                                                   [2420]  
+  .git/objects/2d/ecff7f00b1248d137838f735fbf49ccbdc6b91                                                                   [2415]  
+  .git/objects/2e/49dc41445727a238349d6f87fb16a054969589                                                                   [4451]  
   .git/objects/2e/5b11c80e475aef289b3865171423d7be705c12                                                                   [59]    
   .git/objects/2e/ea5a4d4a89ddc9f83963053ca21dc2a93359ed                                                                   [83]    
+  .git/objects/2f/56640e41e3bcef22eb3f2b33f92052ceec7f57                                                                   [2413]  
+  .git/objects/2f/da5f1598814f672147fba4dcfb7d07cf484fc1                                                                   [2424]  
+  .git/objects/30/467961c48363877424eec8d842498dae26abaa                                                                   [2414]  
+  .git/objects/30/654a3cf90de984dc4d2284d7eb7481224e944b                                                                   [2420]  
+  .git/objects/30/bd8c3df6526bf76e24fb7a40c7edbc4a5529cc                                                                   [4662]  
+  .git/objects/31/36843a0fc33104fd3732c5fd649cdcc5ad886e                                                                   [9950]  
+  .git/objects/31/47dd1b70260e35760e6b11d766f47d7f8563d1                                                                   [2419]  
+  .git/objects/31/53ebf34ebef22bbe3f64c1ca17d2305da0631f                                                                   [2421]  
+  .git/objects/31/9c433377b9669c5dfae35272b071bb6d27aa79                                                                   [2407]  
+  .git/objects/32/2512f8afe60853c5e616ed18e25d4cfa35ce26                                                                   [11367] 
+  .git/objects/32/4b50623513203f7ac1931eb04f89a8b787bee6                                                                   [48104] 
+  .git/objects/32/986119e9fa471a92ff65c37107fe9eb7c72c9b                                                                   [2412]  
+  .git/objects/33/c9536d6e4c88e86a4493e45cdf08f924c38573                                                                   [23961] 
+  .git/objects/34/cee33b556441b1d9a6b4e35f7932cd2290f1fb                                                                   [14950] 
+  .git/objects/35/e251c80db160b0fe3d36f164671b212f3e79da                                                                   [2418]  
+  .git/objects/36/3b93bbf95b51d7945f9a20804ba2fa9e4b2132                                                                   [59701] 
+  .git/objects/36/41426ec5a2e58dbf5919d0c0298fff6348f6df                                                                   [4552]  
+  .git/objects/36/420294d35782b0aeb0a37f828822b6719c5956                                                                   [2420]  
+  .git/objects/36/d1eee7f48c3d6328bebdb461b8445a30bbd589                                                                   [35146] 
+  .git/objects/36/e96eb9bcf68a833b1892e8462972fffaf45337                                                                   [2420]  
+  .git/objects/37/1652bb4869c37edc20fb45c7548146b8ed7ccf                                                                   [28218] 
+  .git/objects/37/4ffda57ba6737863f2444d19bc44db47e03c22                                                                   [89329] 
+  .git/objects/37/ddc583ffd76127c577d2f5b18a05e393f990f6                                                                   [2419]  
+  .git/objects/37/edbfff0d44cd74618c5a44e7d1077016c1a1e9                                                                   [53144] 
+  .git/objects/38/58aad9c331c7f9f2f2804fcfe000134a14ea2b                                                                   [12362] 
+  .git/objects/39/b9be44656d2070c753658ef4c2613a61936046                                                                   [9159]  
+  .git/objects/3b/b98db75b0f82186cd87fe0bab3176a4e67f5bf                                                                   [2422]  
   .git/objects/3c/58b6842a5e321e7cac1f2a46197c152d84a91e                                                                   [16266866]
+  .git/objects/3c/6048cbd4afe70fe341bb39e7a5b045a2c6f742                                                                   [2413]  
   .git/objects/3c/fc3edfef2d498b97da38f7ab248675e00bd45e                                                                   [17673] 
+  .git/objects/3d/3c353c8f62ebe7f00759d3200e13aa62fffb46                                                                   [3395]  
+  .git/objects/3d/5332df23331f863c3cf76979d2db187739e472                                                                   [2421]  
+  .git/objects/3e/4202ce7c8c8a0fd257701375cfa0ede0326aa5                                                                   [9296]  
+  .git/objects/3e/b5415e0c83be0bd3380748ca05af10b7c00e66                                                                   [2406]  
+  .git/objects/40/23e9c5943ac9b38b12987bdc9ae8695a92db96                                                                   [4206]  
+  .git/objects/40/b0eb838c9637b09aceed95bea732bc1f27f7a9                                                                   [2407]  
+  .git/objects/40/c1b22bc0d5671ddbb3e6abc5c02278967f2bcd                                                                   [2424]  
+  .git/objects/41/90560561804b354419668ba96b74db3cd1d7c0                                                                   [49814] 
+  .git/objects/42/689369d0d41e9c25ab4b454d53e7a309276844                                                                   [9432]  
+  .git/objects/42/a79622dac7e1fd6445b5d75def381b6ced5b57                                                                   [19653] 
+  .git/objects/43/136cd116a05198caddcfaadaa0e89657e7acf5                                                                   [2420]  
+  .git/objects/43/da33828529fa6e6e6746a55b253de254e3abb1                                                                   [13283] 
+  .git/objects/44/0248fb1973be9216aa7cc70e51ebd864fd79bb                                                                   [6438]  
+  .git/objects/44/3577b65cac805f8e257f71ce831dd3777c77a2                                                                   [19746] 
+  .git/objects/44/e96f6ea60400bd8deb70280ece8d36d8e0459e                                                                   [29330] 
+  .git/objects/44/fd7c13c4c8f089f4e810ad12de71ed195b41a1                                                                   [2410]  
+  .git/objects/46/023aa16e15e207c0c0e09d50cca0c13cdf86fc                                                                   [2411]  
+  .git/objects/47/07d06c1512ddfcc5c8007824d9ef1c5461d70d                                                                   [2420]  
   .git/objects/47/2b1f10a653ba4abd9881a2474d4d758c9b223e                                                                   [120349]
+  .git/objects/47/669990f0dd4b20252f06e029dd4d5b09d53a28                                                                   [15032] 
+  .git/objects/47/cfd6a35ed40f6fbc4bae0d3dc034c47889d5f7                                                                   [2420]  
+  .git/objects/48/28735163c78d662785bc464d6d08e12f8147c5                                                                   [2421]  
+  .git/objects/48/40f4c89180b12786b1b39235d639d5f422c25f                                                                   [22244] 
+  .git/objects/48/a0f16b69bf5d07285ca345a83fc58d48acd860                                                                   [12895] 
+  .git/objects/48/d2aae174a6fc2f7740840dde178eab47c43bb5                                                                   [35132] 
+  .git/objects/49/97a66d5f0db6fff140715624306ca65d3e7ed5                                                                   [19789] 
+  .git/objects/4a/078b1eec07eadbedc638db15f738f344e54b51                                                                   [13820] 
+  .git/objects/4a/9fa31a73e6d2d43f71e24e32a18b4c7de48fbf                                                                   [2419]  
+  .git/objects/4b/02096ee2ac2ce334fcc8747df4853dc707d4c0                                                                   [3298]  
+  .git/objects/4b/7d0cadc1805f3a9a13ffa4c4fb9aaeb21d7cb7                                                                   [18458] 
+  .git/objects/4b/b9277a10e82c1ac31cb45e4ecbef1718ac691b                                                                   [26626] 
+  .git/objects/4b/d687562aa19d886d3b33807f7d733c926e19bc                                                                   [28614] 
+  .git/objects/4b/dea1090b8f572702904b612b60c82967f4cbf1                                                                   [6527]  
+  .git/objects/4c/d21a31b3850cd4bdec22701d1a21513839e319                                                                   [17668] 
+  .git/objects/4d/2caf35281afaadc4d0c311a2a3d127a8d7b133                                                                   [2417]  
   .git/objects/4d/a57744ffa09efb5a2bb260e1b6a3e681960725                                                                   [6934]  
+  .git/objects/4e/523ffe7c7f1ae4f055535e5f8766cc39ad524f                                                                   [2425]  
+  .git/objects/4e/849969ef186618d858baddab1f85080fdd4356                                                                   [2408]  
+  .git/objects/4e/c609ca001185ced5d55754bb8449112ae9e38c                                                                   [2418]  
+  .git/objects/4f/217bc7f87c38d5525c4dff8eec5209b5feea34                                                                   [2409]  
+  .git/objects/4f/b688ef0ce5b93804b494fc17cd13fdccf0a5ad                                                                   [2425]  
   .git/objects/4f/cf0d6e845b541110743f70827d5cc0b10fe172                                                                   [115]   
+  .git/objects/4f/fb885a03ab5bfd5ce86fa304641e407991b8e2                                                                   [42738] 
+  .git/objects/50/18ea3ac26ca41176c33549e3864476cb0e32a9                                                                   [2413]  
+  .git/objects/50/b2b59504f296ee551c13022d7fa1d90ab7fe3c                                                                   [3258]  
+  .git/objects/51/6528693e3df8c047e794706b0f49bc81c7f0ea                                                                   [14871] 
+  .git/objects/51/e3c818c628c22adcefac6ff25fb418ee105a4b                                                                   [70657] 
+  .git/objects/52/cb463c40e7e785fd6daa059860de0ad51b9749                                                                   [2416]  
+  .git/objects/52/e20f933e7bde03194f5e6d327adaccce4eb406                                                                   [2419]  
+  .git/objects/53/65010d4fbf628d83b9ac0f69f0766a8c029ebd                                                                   [801]   
+  .git/objects/53/6e2866aab02cac4829d3661582722bf951a47b                                                                   [2407]  
+  .git/objects/53/7cf69931b2e971e0ece032bd1f1a7d3243a540                                                                   [54504] 
+  .git/objects/53/ced04ef05340dcf47ab08559890be7eb0a428c                                                                   [8224]  
+  .git/objects/54/594b4ec8f87e97bd1f1e00b8979c4f1abee5d5                                                                   [2421]  
+  .git/objects/54/bec7f362106c94fb7a009c2be4ff2a1a959f7d                                                                   [2421]  
+  .git/objects/55/07cfcb7210089035724061e0589122a2f94dae                                                                   [2408]  
+  .git/objects/55/4c8e1ab91daf1d98a18d02f14e1bde51c9e1e7                                                                   [2422]  
+  .git/objects/55/7b0e0f02a7786a5505866b6c2e2cbcd7c9e662                                                                   [47563] 
+  .git/objects/55/8defb98461600c9f29d5517f38c3aba50a5247                                                                   [2411]  
+  .git/objects/55/b8378591c15c32c0bc9a371bdce31677a83f89                                                                   [89390] 
   .git/objects/55/cea1893a5937bcbebf3086e64c5f5b11eb4dc5                                                                   [515]   
+  .git/objects/55/d64cd10860f4c7bcaca4f139d130829aa5d01d                                                                   [2417]  
+  .git/objects/56/3d690c23da6089e62321ffc71e44de3122be01                                                                   [3298]  
+  .git/objects/56/c8c586763496b7a1acc3a85ecb6e6d82624856                                                                   [2417]  
+  .git/objects/57/f5ad33a328b4e2c375225933fe360b5209e422                                                                   [2418]  
+  .git/objects/58/619034db695bbfee95258a4605781fc79bbe68                                                                   [2410]  
+  .git/objects/58/f6d0be41493cf309c6787d7c038f5e256fc300                                                                   [2407]  
+  .git/objects/59/247a404cf8ca6fe4aea9a92c1d644ca5a4d2ab                                                                   [2433]  
+  .git/objects/59/47ac69e6a7c21cb5b11d83f3b659d2e5133eaf                                                                   [6229]  
+  .git/objects/59/9e9b53a02f64f3d5f52b21c5b92f596f6830ed                                                                   [6435]  
+  .git/objects/5a/5d8e3d237b155bc00fa6f891a26c964ab7fbfc                                                                   [30660] 
+  .git/objects/5b/0cc2806ebca950c3d74141135c3601dd563002                                                                   [2413]  
+  .git/objects/5b/37a0a027ca8947a79177e10c914f4796e66cfb                                                                   [25217] 
+  .git/objects/5b/72398fda6bde64f704358cbf4db3273c0634a3                                                                   [2418]  
+  .git/objects/5b/ad3976d5c7368594c02f37884e302ea07133de                                                                   [22023] 
+  .git/objects/5c/3f0be6a516bd572d28cbc0ba032cab5e9c91ae                                                                   [45312] 
+  .git/objects/5c/47b3e94d13584047e08ca77106364b7e643131                                                                   [2412]  
+  .git/objects/5c/bfc231c1515593a97db57058a4cd6163b12426                                                                   [12920] 
+  .git/objects/5d/924d479aeff84d78e635dae571fdffb851dc78                                                                   [2410]  
+  .git/objects/5e/04281177c416cd3aa8bc60e8d0b9d39afd2699                                                                   [35717] 
+  .git/objects/5e/84eef01686baa31626b633b205d9bfd1b42a9e                                                                   [12910] 
   .git/objects/5e/ed648d9e41cdbde8248e5b9520380cb3959dac                                                                   [7702]  
+  .git/objects/5f/63499673354a5b030577b1f275359d7a9f8319                                                                   [13809] 
+  .git/objects/5f/cb18591b58f3096b8732996ce4fa44ceb692fa                                                                   [2409]  
+  .git/objects/5f/e021e3322fa45d065238e74411e29b39f1b355                                                                   [17367] 
+  .git/objects/5f/e7e431607c855390f8f39b99cd7d8b4607d64c                                                                   [5375]  
+  .git/objects/5f/ef234234c0eaaae04d91e5210c08cdfae17ada                                                                   [2422]  
+  .git/objects/60/a60f2772255137009e1961cb22e2219154ec30                                                                   [2418]  
+  .git/objects/61/079315a07852426b53c2d2ff60aff985877593                                                                   [4688]  
+  .git/objects/61/290f1fad3d15adb89b60cc819448ce7aafd783                                                                   [31217] 
+  .git/objects/61/38cdddb13af60088da3d4503702c2eb6baaa30                                                                   [13620] 
+  .git/objects/63/5448608bc5f12253eae112b2b54b8963d12186                                                                   [2420]  
+  .git/objects/63/a92462445898b639774ab73dd59dcb31f23d96                                                                   [11736] 
   .git/objects/63/b79ef54b8698f7633418789b28866af201174c                                                                   [72]    
+  .git/objects/64/09a89df7137a234e87745d16f29802ff4c37fd                                                                   [5230]  
+  .git/objects/64/6a9a6a40e7adad3ddcdb4e614833f3bc243c06                                                                   [4459]  
   .git/objects/64/7753774ffc03b20dfeace7407b45797f378c4b                                                                   [14086] 
+  .git/objects/65/35b24b112c684e06e8bba447bc87206d411d13                                                                   [7885]  
+  .git/objects/65/d230f4781ce240199fb03a1e9966fa447fe166                                                                   [1692]  
+  .git/objects/66/e8399e804343d8255248cc7f4f31702a7294f6                                                                   [10133] 
+  .git/objects/67/8b275c43fed10ee55e812c201365569a5b3b49                                                                   [2421]  
+  .git/objects/67/e02257294d5b14519a030d908bb10c589ff0bc                                                                   [7716]  
+  .git/objects/67/e80c0dd9e7b54483256db841c9bf21da89129e                                                                   [2422]  
+  .git/objects/68/3419e40f27be852ece2e4fff42abc15a73e5ff                                                                   [2419]  
+  .git/objects/68/8159dfe31fba94e8948c2425aa2f97d3012c7e                                                                   [2418]  
+  .git/objects/68/dc923623eb31d14c17542fa86503bb8d1ab2b4                                                                   [7766]  
+  .git/objects/69/967cdbcac2bf0e49058f6234263deb37df7ec7                                                                   [9972]  
+  .git/objects/69/972e8277bbf2c68610c4066a2613aa8cde45a8                                                                   [26445] 
+  .git/objects/69/b5176c423c51f05d8ac490d38e19166f6ebbc6                                                                   [2412]  
   .git/objects/69/cca7d7b4c9695038cb455d352021e81d36d5a2                                                                   [4798]  
+  .git/objects/6b/0b24ccba972ce976c06cfdf42d17f933fbd443                                                                   [33419] 
+  .git/objects/6b/64f2e94c62d65e53df37591e844520b8d31bdb                                                                   [50]    
+  .git/objects/6b/f2ff14dbe4b5a26e3caefe02ca74453962f79f                                                                   [27391] 
+  .git/objects/6c/257ae8714bccf788eb5d559da5429fc3b4787d                                                                   [2409]  
+  .git/objects/6c/4ab3ab40dab28d4fe2bc04311dc4ee77d19fc1                                                                   [59]    
+  .git/objects/6c/887dc01731bb6278a33e9d6ff2b9993fdf88a5                                                                   [41560] 
+  .git/objects/6d/45b3ceddb721ce77c6d8063447069f666f51e0                                                                   [2421]  
+  .git/objects/6d/5672eeb3bfb0a5cd0d1a20757a9284ce06a9d2                                                                   [24409] 
   .git/objects/6d/59dff4b90568bad6fb62d8ff6c476047f94bc8                                                                   [19502] 
+  .git/objects/6e/08805e995a5e89533a70da39d38e139268139b                                                                   [2424]  
+  .git/objects/6e/681f2e13f155fa31a9ba91e9f92a1f438f7a72                                                                   [18247] 
+  .git/objects/6e/b12554bb9a042e5eb43b998ec72194cdbf48be                                                                   [320]   
+  .git/objects/6e/c405ef17e765d3db7153ec5f29e347498a4ed3                                                                   [8817]  
+  .git/objects/6f/276fccb032a8fecd6f804cd638c4400af56548                                                                   [55677] 
+  .git/objects/6f/4d65324388373325e53418076a77ed77275237                                                                   [115]   
+  .git/objects/6f/8c3cd0d5f795c6883373293dbc34088d66eee1                                                                   [2418]  
+  .git/objects/6f/968c89bf1b851ceb135b7507eb5d980497f971                                                                   [21341] 
+  .git/objects/6f/bffe623413497dad54d87f16457699b2d85c47                                                                   [22876] 
+  .git/objects/70/3e513f13cf8c8ce86e4279599aad8cf01bcd3d                                                                   [24266] 
+  .git/objects/70/56359d5a4083afce60b51cb123c84bbd4f0fda                                                                   [14795] 
+  .git/objects/70/59c9f2a89ed7d2b93394fd99f659345fd42fc0                                                                   [2410]  
+  .git/objects/70/70eaea363e6c4202b696916830a80c0fae2b6f                                                                   [16243] 
   .git/objects/70/8fea151a4f646e6c6eec2eb21a222f20979a16                                                                   [395]   
+  .git/objects/70/c82b369ea19869fe9f95d440d58bfa5084103a                                                                   [2414]  
+  .git/objects/71/93875a1274d776b40d27ce3cdf6f2a756e68dc                                                                   [2419]  
   .git/objects/71/c83bfd9f7119785a12c2caeb25dd8f7ed9ad17                                                                   [17075] 
+  .git/objects/71/e8bacc011f7e3d64d7c95187508ad89bff2e4a                                                                   [2407]  
+  .git/objects/72/751e656d3754821c1315f99f9e131e740cd92e                                                                   [50586] 
+  .git/objects/73/8fe63e91d84cda75be47266b6de46fcd3808d3                                                                   [54596] 
+  .git/objects/74/5340a6b870ffac773304e69a73497cd66e7773                                                                   [2408]  
+  .git/objects/74/5651dfefc4d5a6db592cf3be0a03b94ad64e3f                                                                   [2412]  
+  .git/objects/75/2d8bba09d43617e36b46acade1c789e3bf457e                                                                   [2415]  
+  .git/objects/75/4fa99cb63bf7c340ecb26f45a8eeee8c7987cf                                                                   [11498] 
+  .git/objects/75/5749cb6af0380f6f12c96304c4c533823b1484                                                                   [2409]  
+  .git/objects/75/781a6d99fb9954fa4fd8b2db3b42e32a2535f6                                                                   [32231] 
+  .git/objects/75/fb0168b1fdfa62e662370c2c681351af1b7ff6                                                                   [2414]  
+  .git/objects/76/898644b2010a6e75d7ca40baa91fdd87441c12                                                                   [2412]  
+  .git/objects/76/b27701ca32531e810521b16517120d3a819121                                                                   [2421]  
+  .git/objects/76/b7cf031e41eb8eba6ed2fac2c0522ac896057a                                                                   [28457] 
+  .git/objects/76/d1ad97d50933a10e9ae25c9a026a2a1483acfc                                                                   [6177]  
+  .git/objects/76/da7c0b50fa6fada19c11cb10bdf5ae0168d4ef                                                                   [3314]  
+  .git/objects/77/2a02b4565ad8f2d57ce8cae238230face0d85d                                                                   [3315]  
+  .git/objects/77/890a46496f5270304beb083472812a39218cb8                                                                   [2434]  
+  .git/objects/78/671d12c13a851060f293b26fedb15a5ccf09aa                                                                   [197]   
+  .git/objects/78/753dabb3d390c3858d5a6c273bc3503de94559                                                                   [61713] 
+  .git/objects/78/9baf5fdb798ead7d67e591e4d1d80898177dcf                                                                   [20208] 
   .git/objects/78/d9a67091a8aa1902a81d332a306bd5296310b0                                                                   [669]   
+  .git/objects/79/cfd939128876ffccd84f3855d75b04a5c284dd                                                                   [10440] 
+  .git/objects/7b/af75e3c71c0cd4d73ac178055920a9405663a8                                                                   [2418]  
+  .git/objects/7c/245c567c747733412ed07d36a6c568b921d7a7                                                                   [6611]  
+  .git/objects/7c/c23da006a445e3166e8a03029de5cc106124e2                                                                   [2424]  
+  .git/objects/7d/0f8ae3b09c08df21dcb9d696171c180572d727                                                                   [44841] 
+  .git/objects/7d/6c4e46009a6f5c3025a7fb9aa9d01cd9ddf893                                                                   [2422]  
+  .git/objects/7e/1cb742573430d1cc023aa47ee2e5142d5ecb89                                                                   [2420]  
+  .git/objects/7e/2a28e0bbfb53e78eaa94b1d5e0fcd48ee91d68                                                                   [30708] 
+  .git/objects/7e/8de722b72af32ef0805326949254c095e76d10                                                                   [2409]  
+  .git/objects/7f/33a554e6fc7579aa4ad9bf53c3b72137c67509                                                                   [28333] 
+  .git/objects/7f/81a3b33590415796a94480001ee1caf2232555                                                                   [417]   
+  .git/objects/80/4c21ee34123c2ea4da0d1d8cd4dca4b87cd436                                                                   [20801] 
+  .git/objects/80/c6bd3109bdece0a70654592c625fc6abbaeeac                                                                   [2410]  
   .git/objects/80/d8b6bdc267fdcc90906a163aa95280d64abc05                                                                   [51680] 
   .git/objects/81/6c88acc19c1276925164daa41c9292a7429b64                                                                   [384]   
   .git/objects/81/f890bf432840876b22ea166c26f98c5d15fdcc                                                                   [119]   
+  .git/objects/82/7049b3070db3dbf0326f6326dc97ad2ba1f306                                                                   [24416] 
+  .git/objects/82/e978e7f961fb7a167a853bb847853b458e70c5                                                                   [11196] 
   .git/objects/83/ba0cf74f2e409fa968464e0bba497ff7113214                                                                   [83]    
+  .git/objects/83/ddd1f6ac88c5477440a939ef36a4cced26ef97                                                                   [2408]  
+  .git/objects/84/205fb07eb05892ab5c31d089e44f135c481202                                                                   [8483]  
+  .git/objects/84/7ed796b661ee0c3112ce948406003a85189b3d                                                                   [2411]  
+  .git/objects/85/37223277a1cc2722267db44b366869343d2ba7                                                                   [2426]  
+  .git/objects/85/7f2607a6f02dfa352b5d55aa36c45e5932bc13                                                                   [21358] 
+  .git/objects/85/a1418920ff7dc697f5a3aeb98973f3f94b3643                                                                   [25325] 
+  .git/objects/86/10b1a90bc20fcf2b728757107f82e48eaa1b2a                                                                   [2419]  
+  .git/objects/86/14e6a9158a62c7c155836ac0e3c43fc4b7f2de                                                                   [4975]  
+  .git/objects/86/267e89b2793869800888ea36ad61a06195c443                                                                   [2421]  
+  .git/objects/86/53b6942e0e0c28d7116252919cc6d67196c82d                                                                   [55293] 
+  .git/objects/86/f7c3b324f80887a81ddde8c4aa4a8f2f638ac6                                                                   [2410]  
+  .git/objects/88/599f0ddd9c922bf851731ef0bbc2c961b0d719                                                                   [2429]  
+  .git/objects/88/88c825c6cb7736ae5482e7c4209e323c4db02b                                                                   [3257]  
+  .git/objects/88/90154b2bfd2511eb62aadbeb5c951b83bf975b                                                                   [2413]  
+  .git/objects/89/a999e328c05a6a46fca9b7b64baa173e6bfe95                                                                   [20406] 
   .git/objects/89/f7aaa0f18e367fe5554badbe5deb5c8afd3c42                                                                   [417]   
+  .git/objects/8a/3d5d36037d84d513a50a1db2882cf2f847e374                                                                   [3297]  
   .git/objects/8a/b8b14b7fb986a9eb226797d2f937f23901e3f8                                                                   [53]    
+  .git/objects/8a/deec1b7ae375ac50edec929b5af1cf5377dcef                                                                   [24243] 
+  .git/objects/8b/05c467e0648e3c4c4e412938b01c41b27f6fcd                                                                   [59022] 
+  .git/objects/8b/24f4f7d713f0e427e16d6e491a018cce18664c                                                                   [11227] 
+  .git/objects/8b/5e5a85b82c0f5439294258753d2bd19aab6f89                                                                   [2421]  
+  .git/objects/8b/5fa756e661b4b1ed23efe135b113c579e1e9fb                                                                   [2420]  
+  .git/objects/8b/e57609949fda97cebfaf1b9b261acca3a582a2                                                                   [13114] 
+  .git/objects/8c/406d3376aae200aef84f635a0c7767793f8ff2                                                                   [4602]  
   .git/objects/8c/565747f8d0c0237e04d7fb46c9f2dafd947e4b                                                                   [80]    
+  .git/objects/8c/6b32a08c38d580c9016171abe0f97d3a370785                                                                   [2428]  
+  .git/objects/8d/35cdef81e5891286416701a0265780947d3bf4                                                                   [45354] 
   .git/objects/8d/3a650054c57474af53bf95aa1a2447e4ae30b3                                                                   [1054]  
+  .git/objects/8d/bc75e2284cd2e736da41c563957c480c34fb55                                                                   [6693]  
+  .git/objects/8e/306f696918231aa506251e8b7502ca59fbf1fb                                                                   [2419]  
+  .git/objects/8f/13cd9bdf87c78940f6026252727b78a0f288f6                                                                   [71323] 
+  .git/objects/8f/63c4a1535b9bcdce6b1ee30fba995c88473bd0                                                                   [40855] 
+  .git/objects/8f/748840d2e301bb6de3b6ee04776fd18f25caf7                                                                   [2418]  
+  .git/objects/8f/b97a38ba8b0b3b40f220b2900d5f8cdd3f7c14                                                                   [2415]  
+  .git/objects/90/d4c11d58875e3135160ce555ec5d80a7869a1e                                                                   [6044]  
+  .git/objects/91/76b0ec1aa436a2427c5383a1dd1c0324b7dbfb                                                                   [33429] 
   .git/objects/92/97a5fc550db27a45cce2df090d3ceb39648180                                                                   [49]    
+  .git/objects/92/98e5cc7b3440cffd6f171c1f50de116d6ec74f                                                                   [22070] 
+  .git/objects/92/cadd96b1bca8e71902be7d7eb9cdff91d9dc00                                                                   [47496] 
+  .git/objects/93/12394be150162c973fd7484e101f4e5d824f3b                                                                   [2410]  
+  .git/objects/93/9b1aed4746f630560907ee28068ee01b378004                                                                   [2413]  
+  .git/objects/93/f7645e4d6dbb16734af796cf182513e3163a1a                                                                   [7880]  
+  .git/objects/96/a96ba17d0380a93d0e61edde046e5b93858346                                                                   [2426]  
+  .git/objects/97/84e6b8b4f668c2a5d440abb2744d190f289061                                                                   [2411]  
+  .git/objects/98/a4f8e0780617430770ad4692f62591e9599c19                                                                   [40088] 
+  .git/objects/99/33f1c0f498158787145968dc91d4eab0448c92                                                                   [2420]  
+  .git/objects/99/b254b8f0461e37db627850092661acbaa420d6                                                                   [2421]  
+  .git/objects/99/b6eb03c2fffcc7dd426bb252e881182a83bd4b                                                                   [2423]  
   .git/objects/99/c0b3d1b0bbc0774967dc679aa322b69e0f7fde                                                                   [705]   
   .git/objects/9a/0387ab10c867a9a7f6e452e1e070e6c155800d                                                                   [1049]  
+  .git/objects/9a/926bd9ceab3ddd8f4324f03935aafed8cd6c60                                                                   [2416]  
+  .git/objects/9a/c91ea5f4d3122bb8a72b4afd088953982135ed                                                                   [2415]  
+  .git/objects/9a/e45da8fad0ffa816f00661d812df6080e4f52e                                                                   [6646]  
+  .git/objects/9b/5b901eca95cb60612ca57bc72401867d0d0c59                                                                   [9242]  
+  .git/objects/9c/70b10d455ad500f945dffd62e43fd0bb11c99f                                                                   [2424]  
+  .git/objects/9d/18539cc4661a9a24e55b59ff1a8a90e64e7ef2                                                                   [55145] 
+  .git/objects/9d/3eb640b865d8f7921f4c46f6a2cbd496cdf4e4                                                                   [16601] 
+  .git/objects/9d/643d99c861434a7b2fffd7109fd3468366ab0b                                                                   [2408]  
+  .git/objects/9d/6eb5bc9909145ecd13dc2cdb71c189cb51fdb3                                                                   [7713]  
+  .git/objects/9d/7f7e8d792378537f5953f958c3bd8c044eef2e                                                                   [2414]  
   .git/objects/9d/edbbff8a9a5e2fd6c8bcf59f21b5417d952fa1                                                                   [58]    
+  .git/objects/9e/92cb039688562334f07a2d03289d3dab96e4f6                                                                   [21340] 
+  .git/objects/9f/4a533e1235ccc79ff5c790074aef00d64b2ad7                                                                   [50]    
+  .git/objects/9f/ac9850dd4e691b596473924032dd9bbfe2110f                                                                   [2411]  
+  .git/objects/9f/c83ca3edb0d7ddcf9ff48dc4fdc05f1ddae360                                                                   [5477]  
+  .git/objects/9f/c9c9504d13a771d5ad0687f540fa0f57abf934                                                                   [6254]  
   .git/objects/9f/e1f27cdc2f64e241a44c4ed9f76ced32fad7a6                                                                   [51]    
+  .git/objects/a0/12977d9ffb26818adb74273ebaa5beff8d0176                                                                   [176]   
+  .git/objects/a0/61824b334a8a7a8e3c50f86b4f7d748a1e949e                                                                   [2409]  
+  .git/objects/a0/8ee1e864580c192594d093046f4361791a520c                                                                   [2420]  
+  .git/objects/a1/4fca040f4d192401494e5ce73c012d6d61d7dc                                                                   [8060]  
+  .git/objects/a1/da54c40c71026e553b471f23beec42430428ff                                                                   [48178] 
+  .git/objects/a2/48dfef247c97a74629ef91ce45f33e4ba42116                                                                   [2418]  
+  .git/objects/a2/c4645d253289917e8c7bd698b435c299c244ba                                                                   [47160] 
+  .git/objects/a3/4600027e829189d0924ea40554c096ffd0851a                                                                   [8821]  
+  .git/objects/a3/fd2a39576231413746fb3c0935f84ddbf4314f                                                                   [2416]  
+  .git/objects/a4/50f56ecb01438670fc90054efd9ccb7d2290ba                                                                   [3258]  
+  .git/objects/a4/6d667041de6fabadc87156540af2fd72736bd9                                                                   [384]   
+  .git/objects/a5/01f59483a1d2c02c3a6af0372abf8d6bd0291d                                                                   [2420]  
+  .git/objects/a5/25dd1db34387f437817f348a97b550fa8416ee                                                                   [378]   
+  .git/objects/a5/63224fa96be1b953560ebc642bf46b65806325                                                                   [47]    
+  .git/objects/a5/aaec0d9c21b794a824f947a2d82a4201302696                                                                   [4742]  
+  .git/objects/a6/00a39685868940c45cac79a7730a00e38270df                                                                   [54155] 
+  .git/objects/a6/0c9d0811bc0e7a46a4794b89e4711f5b450c83                                                                   [2420]  
+  .git/objects/a6/7f88bf8f994eca143848c9e288004d7e192c26                                                                   [2420]  
+  .git/objects/a6/f7cc6eb6545d96ad328249ea415c18f97eef7b                                                                   [56093] 
+  .git/objects/a7/719f2cded8146664b2aeb42b2b14c6716cfa22                                                                   [22714] 
+  .git/objects/a7/9e56b12095027e4250af0822d52dfda8038373                                                                   [4544]  
   .git/objects/a8/4ce14eed7d1e941a828f77f736b53c0e2b45f6                                                                   [6085]  
+  .git/objects/a8/6b0980d12cd3587ed9812de3a3de44af35877c                                                                   [3314]  
+  .git/objects/a8/eaecab47826aeb94555af9692897109e88279e                                                                   [8522]  
+  .git/objects/a9/83541240b95cb0fb9bd164959a18fe5f997217                                                                   [1216388]
+  .git/objects/a9/83e9177e633ee468887fd6404ef1c48b9b0eb4                                                                   [1442]  
   .git/objects/a9/a70de3b86a479377a50d26dca1e242ea632969                                                                   [194]   
+  .git/objects/a9/de61e13a265ded90a334fe21b513d9bc3a7439                                                                   [4589]  
+  .git/objects/a9/fc317ae66a0648ed721af0babdd8a61ca396aa                                                                   [2115]  
+  .git/objects/aa/7c7bc7f606ce6c7e6708938466421ae1539f48                                                                   [2411]  
+  .git/objects/aa/b18c64e6ae654191a278287950f84d50c2660c                                                                   [2412]  
+  .git/objects/aa/bb00bbbc3a152630940e08a759fcddcca5db00                                                                   [2420]  
+  .git/objects/ab/01fda1c0c60bb91f313ca6f10e4ab6e1411cd3                                                                   [19599] 
+  .git/objects/ab/06d1c732965ec0c04be288a0a0c3535b201d6c                                                                   [3582]  
+  .git/objects/ab/f6c38701f77f7b1462a60c6ae4054ce1659a49                                                                   [28062] 
+  .git/objects/ac/a2846285ab3890bddb92da3c85568518de5755                                                                   [2406]  
+  .git/objects/ad/5b4a56b706b0f0b61d6b4e28f6e1052d311163                                                                   [7478]  
+  .git/objects/ad/86451f74a708f0cc6dde03b1d738064077e098                                                                   [2419]  
+  .git/objects/ad/b8801d8950ed73b97e8c86623f15b625d891b4                                                                   [6432]  
+  .git/objects/af/1990786f2a3c8cddf2a2cf7aef8535343274f9                                                                   [2422]  
   .git/objects/af/72954555f99b574e071e978081e6baba5090ea                                                                   [12907] 
+  .git/objects/af/7ae524a9a9ae5b76a396a872c6ca5d29b26710                                                                   [13716] 
+  .git/objects/af/8b0e4e36b24f427cbf7657af428346db2295af                                                                   [28511] 
+  .git/objects/b0/57e331a78eb3a11e8a0c5bf3ecebbc3344e23c                                                                   [6694]  
+  .git/objects/b0/de6e2bfa3137c0327e50d5b2871aa33ca036f8                                                                   [2417]  
+  .git/objects/b1/4c16749d4e410dac16340e13002c82d8e813d1                                                                   [18666] 
+  .git/objects/b1/bc575f9bc66094aa8fc4b65726394edf9fc51b                                                                   [2418]  
   .git/objects/b1/e26ac87bb8d4ad3e60dd06772af488063a78b4                                                                   [122260]
+  .git/objects/b2/da6e677fffd18dbce382a5c2ca6772c0bf7780                                                                   [2412]  
+  .git/objects/b3/2758a4e0607534c5b40f6493bb6d7954860beb                                                                   [2410]  
+  .git/objects/b3/dae11a7ea8c1020370bd29c56f2c73a7dc0406                                                                   [11098] 
+  .git/objects/b5/07b58f0d366b3f90ede04eecda3bb5e3026ce2                                                                   [2419]  
+  .git/objects/b7/62f05e338a1b9083f97ec7e78da52b7f09cb5c                                                                   [2412]  
+  .git/objects/b7/a6359399edebe8afa8b645a1a983fbbede4eff                                                                   [16349] 
+  .git/objects/b7/c45ea23d9e97b353f5d34ddbd97b8ba978a1a8                                                                   [13637] 
+  .git/objects/b8/0d5e0cea99248b9337c11a93ed7bc96078a3a2                                                                   [2407]  
+  .git/objects/b8/1ab973b8fc521a07dd46cd2a1c51a0273614cb                                                                   [2417]  
+  .git/objects/b8/2de3c4ae194c4456b53f46ee3929966a5195fe                                                                   [2417]  
+  .git/objects/b8/7944111839b7ba077cb6f688b1184950baf833                                                                   [11278] 
+  .git/objects/b9/01669a8ff057a7fb8fec78336e8978c87f3680                                                                   [11680] 
+  .git/objects/ba/3f42b7a8fe6fd85bf57f21a0a73d84be4364ae                                                                   [2422]  
+  .git/objects/ba/7fba559d4e94cff98bf535272ac4d3fa3cbd12                                                                   [12795] 
+  .git/objects/ba/e24df3d9854e022dd92cd76c595fd2bb0bbc8b                                                                   [6744]  
+  .git/objects/ba/f9b30c83117d58f467b50b0d8f6055b391860a                                                                   [5604]  
+  .git/objects/bb/94ee437cb8da522680d37f58b444d18db5a51f                                                                   [9448]  
+  .git/objects/bb/b5bdf671efefc8eb3ba9ddafd89d0d5af9cf5a                                                                   [56658] 
   .git/objects/bb/ca4eaaf5d2311f74f007c5e0c19122202ed561                                                                   [308]   
+  .git/objects/bb/e039cfbad68f40c36fab8f399e064f660cb15d                                                                   [31262] 
+  .git/objects/bc/685cd7de158b20dbca5ae1abe9a50ca8fe3d27                                                                   [11311] 
+  .git/objects/bc/da4957cd876c1c33daba34977e8d6d5f52fe28                                                                   [4980]  
+  .git/objects/bc/e6bebe4320a49c6de775b4ab429bda40e8baef                                                                   [42724] 
+  .git/objects/bd/b30eaea9f0e1758c327076f7986706478fe65b                                                                   [2421]  
   .git/objects/be/0c8f4d659d1e48da43de6321cffa3b2e29e1bb                                                                   [760]   
+  .git/objects/bf/178f88eb59e1d92a4c64dcfb3ed0b4d74cab3e                                                                   [2419]  
+  .git/objects/bf/97489c02068f1d68efa4a3a476191a5369ced0                                                                   [12275] 
   .git/objects/bf/98e0a1d9d969299d7687ed21dbb7db8418b55e                                                                   [91]    
+  .git/objects/bf/acaef5afc2ee6c21df5272523cdc461c7effa7                                                                   [57]    
+  .git/objects/c0/71e6d7b16da5ac6b3bbaec0055c986b4fa1af2                                                                   [2413]  
   .git/objects/c0/9e355187d18f301ded73a879680ef6949382b7                                                                   [2068]  
+  .git/objects/c0/be8553f8f13f60e86709179cb8769142d2afaf                                                                   [2412]  
+  .git/objects/c1/4a2d1e9edfe10fb31295482d57a1034d4f920d                                                                   [2409]  
   .git/objects/c1/936c73e1dc375552e10161c3bdee9ff7dc4e2d                                                                   [18367] 
+  .git/objects/c2/dbe18ccf6057cd28abd801993c33fc9e1f7ae3                                                                   [25181] 
+  .git/objects/c3/60c6bdd30f4824d30a99306d250789b1431879                                                                   [7729]  
+  .git/objects/c3/68c4b6b253ca8cf65e1cc82bb70dcf93bdaaa2                                                                   [29123] 
   .git/objects/c3/768657d449e373cecdfae8adb624de752f1edf                                                                   [140854]
+  .git/objects/c5/717d8cd2130fa9c2db1af14763b3f85722d9ab                                                                   [6225]  
+  .git/objects/c5/c25dc92f52b02ccdb759e3cdbf3c03669a3904                                                                   [140443]
   .git/objects/c6/54977d594d1670bf3e5b945b86b3fe61cc7fa7                                                                   [132387]
+  .git/objects/c7/09956f6f64d5eeb12e6957e264f5d21328a5dd                                                                   [2420]  
+  .git/objects/c7/84fe1fcb2beb2c4f49cc8abf1eadd43600baa1                                                                   [20799] 
+  .git/objects/c7/8e04e9a1ff63f94c5d0139049216eda5b759e9                                                                   [2420]  
+  .git/objects/c7/c1ebd47d14ea5ab5c0bd68b709936b2e83e1b9                                                                   [6401]  
+  .git/objects/c7/dccc6e582475ce9b04c2f32172cc160eaebfaf                                                                   [32257] 
+  .git/objects/c7/f550ab90b86c1709b672f8bc1663f8eb77112d                                                                   [2417]  
   .git/objects/c8/0b5ec1fb17d4ec43354fd65666a298d935fffb                                                                   [129]   
+  .git/objects/c8/758c61a2e77266ea5a1236734419bfcdd743b8                                                                   [2425]  
+  .git/objects/c8/9899470450cb627c6d40998c0505887acf6cc4                                                                   [2413]  
+  .git/objects/c9/2c4086ce3c461b563ca0e5379c56306ff7294e                                                                   [2421]  
+  .git/objects/c9/47a7a80e9bd7221520b8e737b255555933dbf4                                                                   [2421]  
+  .git/objects/c9/74e25c1d3524642945584fb9fbc0e5445dbec9                                                                   [5604]  
   .git/objects/c9/bc90cf437757834fee6bb66e06fbf9276a2729                                                                   [2585689]
+  .git/objects/c9/c1136a460f18931c783ddd92b743866ad8b370                                                                   [27376] 
+  .git/objects/ca/1d16cefa498b905760f20c1fc6c8f76de2888c                                                                   [16023] 
   .git/objects/ca/31de398b3175774b46defaac484d9659d8bac2                                                                   [1943591]
+  .git/objects/ca/92c71ca7a5eecb348f5d05fd9bad36201852f4                                                                   [2407]  
+  .git/objects/ca/b13c2d292ca6c0eabe9cb60a759d0055f983b7                                                                   [19756] 
+  .git/objects/ca/b91adf23bcf69fbf82b4b85fec2f8937ca68b8                                                                   [3945]  
+  .git/objects/ca/d67e90832bbd7c9498a23158357f06ad7a0b54                                                                   [2431]  
+  .git/objects/ca/fdb6dee0f27876b2d8c5f54ac6c0f2d1025b0e                                                                   [2413]  
+  .git/objects/cb/ccef0dcf2bf2ce3a75162fd967cbe4ae90e41a                                                                   [21855] 
+  .git/objects/cb/d8b3c4477c79260ab33ad6bb8a75c4c6af097e                                                                   [2418]  
+  .git/objects/cb/eaf9fe43015c8c65119b082e8afbea6673488a                                                                   [9219]  
+  .git/objects/cc/69551c92e5c057d5b354b9484e85a871cafaf9                                                                   [309]   
   .git/objects/cc/78a47eca33c042e8cc952d2e83783d9069fbbc                                                                   [344]   
+  .git/objects/cc/7e91e191a73e8f55f8f2f9588430012cfc9d6e                                                                   [13470] 
+  .git/objects/cc/7fcc9bfdb474aa6eb73bd7b21e92cae8eca01f                                                                   [2419]  
+  .git/objects/cd/e82148ab7f30e2ca5dc527adb4c9aa8f8a0db4                                                                   [2409]  
+  .git/objects/ce/0ef8d7ffbbb75888efd7d14043ba72a0ba2ff1                                                                   [47642] 
+  .git/objects/cf/661a285bc4d465191826b73f167d73b825a004                                                                   [13760] 
+  .git/objects/d0/299ced7d652df6ccf42b84d830557aff2dd28a                                                                   [2415]  
+  .git/objects/d0/6a10cc905124d500cb36d7c4f861e3a73d5e53                                                                   [47847] 
+  .git/objects/d1/0b4d21b44db9d1c6e94b8fa243938c1e928068                                                                   [11264] 
+  .git/objects/d1/360a5b6f9f051c73e9755a7ae60eccc2afe33f                                                                   [3394]  
+  .git/objects/d1/56d47c29ce980548c0a175ca0ce2afb12ddb99                                                                   [5505]  
+  .git/objects/d1/a9cf94667701f5a23864e88188c1da42e17497                                                                   [2420]  
+  .git/objects/d2/7262eda485244d50917c563001a25a1dcfaba2                                                                   [2414]  
+  .git/objects/d2/bf14f437fab0d1a33ff4bd351d8e69bda4c4bb                                                                   [2419]  
   .git/objects/d2/e43c672af905192c4317bd16c908957d51e02d                                                                   [170]   
   .git/objects/d3/a7a89107163350d0f5e9aa5eb62fb338b6839e                                                                   [179]   
+  .git/objects/d3/cf4c04e4de6f7067e90ae1a214997e9f50798d                                                                   [47960] 
+  .git/objects/d3/dfbbc78eb32560c8bf7368b2b4ff1a1735b1b8                                                                   [23989] 
+  .git/objects/d4/447bcb55a690cffab92f26eccac23d473cb5bd                                                                   [9627]  
+  .git/objects/d5/d9bc1507c72f0dcdc06c0640f5961928156801                                                                   [2422]  
+  .git/objects/d5/e90980c7297842a644c0f06512d254038dc514                                                                   [2421]  
+  .git/objects/d6/8dce5fa956ee1e54b9adf1c9b11ae3ff623d0f                                                                   [2411]  
+  .git/objects/d6/d42064f9d2114bf5f56590c426fe4d5b280cc2                                                                   [2401]  
+  .git/objects/d7/3e9fbe980871a9ece793b8dad3f52b1d5d07d3                                                                   [2407]  
+  .git/objects/d8/2eae299d3c39f0eb466d0c869f81534e0718ea                                                                   [25203] 
   .git/objects/d8/4dbeeba79780151fc6be8506308c59469f8a6b                                                                   [7711]  
+  .git/objects/d8/fc649490c7220534d97fa480945cad9e902404                                                                   [71795] 
+  .git/objects/da/05c010f2db97b5ff6b0e9f19d62630c973ff2e                                                                   [59452] 
+  .git/objects/da/5212f1b0536b7ec3b1aece042965b4d747861c                                                                   [2410]  
+  .git/objects/da/5624cd5e91ba502cc668ab1d5ca46e627e0205                                                                   [3271]  
+  .git/objects/da/93394c45f04388fd5bb2458f2001fd52b30474                                                                   [2412]  
+  .git/objects/da/a637da185173bfd463736ca816c1302c75ec1c                                                                   [53613] 
+  .git/objects/db/5c5cbbcb7e37ab0e882732a7581422a4cf91f7                                                                   [90]    
+  .git/objects/db/9226833f7926df00254bd66040790e3034753e                                                                   [9614]  
+  .git/objects/dc/d4ec3142ceee5699937a9a176bafc2389da8c5                                                                   [24651] 
+  .git/objects/dc/dd94eb0e1a3a6ca15450af6b20cad8139aecca                                                                   [21735] 
   .git/objects/dd/2f6b2bea6703ca20844039e5686e34b7e22627                                                                   [1182492]
+  .git/objects/dd/4147e6d2388dc190d53c01ca0a3c1f7aa007d6                                                                   [17613] 
+  .git/objects/dd/8a8851b9b0e33662266871495b7ad8ccafb5d3                                                                   [22229] 
+  .git/objects/dd/a263f548503ba51d9e40a29afb94512c0a7852                                                                   [50347] 
+  .git/objects/de/425d869caa929b45b04300e33babbf9dfd955f                                                                   [72]    
   .git/objects/de/73508c48a4e11a44341e1a77898184280bd788                                                                   [17998] 
+  .git/objects/de/8e82a07a5a5b3e6e0ac3e72909c586c57f79f7                                                                   [669]   
+  .git/objects/de/f400c60f5c4a4fe70290d6b000f2af5fb44436                                                                   [2418]  
+  .git/objects/de/fa53e0c9bfbbe5bb4588aea734908d15222455                                                                   [47483] 
+  .git/objects/df/22b170d22089bcd3524104ce7c38af0b06be17                                                                   [18794] 
+  .git/objects/df/3acff0d2ebeedf1978bb06fe8602468bff12aa                                                                   [3306]  
+  .git/objects/df/56a7668fc13f79b74c5f0df8eddf7a484e334a                                                                   [2421]  
   .git/objects/df/c8a07b01a13e239c7fc41ae61ebee6170ec7e8                                                                   [47404] 
+  .git/objects/df/d1dff900ae9b4a9e235aba1e9254bf44b0f5cd                                                                   [2418]  
   .git/objects/e0/4c9a5d5d52ccc32f19703884d778cb00824f0d                                                                   [14205] 
+  .git/objects/e0/6275141783d960716256bd4e81dd7ac0cd4765                                                                   [20405] 
+  .git/objects/e0/84efaaa2ba8621599389d167da1aeb3c59bd9e                                                                   [2419]  
+  .git/objects/e1/01e78485974cfa2db68cc30db61019ac12eb78                                                                   [6610]  
+  .git/objects/e1/26d2dfb2ed501805baae36a03137d7bce5aff5                                                                   [53]    
+  .git/objects/e1/2c26baf3435a65546ac3dd7b896bcc330c706e                                                                   [2408]  
+  .git/objects/e1/893a53e1bb8fb1df50ca97e257be7e2ed986d3                                                                   [669]   
   .git/objects/e1/9b138c903fecb2b082ac1a403297d4173abe3a                                                                   [56967] 
+  .git/objects/e2/d8827c686ee2fbd87450021a9e7c23544cbfd7                                                                   [2411]  
+  .git/objects/e3/34d00d65ce161b1f75f1ec117ee8354feb7e53                                                                   [13068] 
   .git/objects/e3/9c2867878ed64b09d805028f209ec57fcff4f2                                                                   [126527]
+  .git/objects/e5/62a794815d210409b5c1498cc0946ae7cc3951                                                                   [139340]
+  .git/objects/e5/7d4990ffcf9055d7b05a5575d854591d2078a3                                                                   [31480] 
+  .git/objects/e5/ef9f04a00e5171d79a8b85767aa337094e43d5                                                                   [2409]  
+  .git/objects/e6/664b9640d5d23cc90e395258593b053a32611e                                                                   [2423]  
+  .git/objects/e7/15e96e1ec308c12b893bf16f16842ee2f998e4                                                                   [16236] 
+  .git/objects/e7/4318e0cbb3bdc62e2aa5d6f0e693218262469c                                                                   [19434] 
+  .git/objects/e7/e63553755a3604353b83c406d36b978776aa66                                                                   [2410]  
+  .git/objects/e8/5ded3eb8dfe8df6941d2419a391a2920da481a                                                                   [9162]  
   .git/objects/e8/b0523ff24a679d3fcd803bcc0938222eb1d697                                                                   [172]   
+  .git/objects/e8/fced8aebcd10917a28ce67d3fbcbca9229861a                                                                   [2423]  
+  .git/objects/e9/2b0756c74fa1a2555d79da8a43259529bb636c                                                                   [2418]  
+  .git/objects/eb/a45aa63fe0107beaa6eec2e966c0b8273816d0                                                                   [7526]  
+  .git/objects/eb/ce870e0739609bbf84c4f8a141bd8f25f605af                                                                   [2421]  
+  .git/objects/eb/e51c0913a950eba1ef14770e9387d78d3b35cc                                                                   [3307]  
+  .git/objects/ec/8553f9f008ef6fd517e363dbe041bc84a5f24a                                                                   [30690] 
+  .git/objects/ec/8673b7d6c1657071b75a11b88b5c6933d805e2                                                                   [8552]  
+  .git/objects/ed/472ea8d0b0497671ca38b2eb500bb2d46a8031                                                                   [2425]  
+  .git/objects/ed/6b7a5b58d4bae1e7af03c78e575fbe8d3d2982                                                                   [2411]  
   .git/objects/ed/e64df7f5824429d5d532cb60c1cb710221f3f9                                                                   [16943] 
+  .git/objects/ee/40516b3a4eba3447bb758ccf146ef8bb913d04                                                                   [3568]  
+  .git/objects/ee/6ff909dd3a430356052237dc3133e941941a73                                                                   [2417]  
+  .git/objects/ee/7a60abb95ec0af1ec03969610e60d78cd259cb                                                                   [888]   
+  .git/objects/ef/767ff9228e28001690620ba2e7c767a8871c49                                                                   [2435]  
   .git/objects/ef/91ec1ae0532ffa3c978bf09f2112986e14b60a                                                                   [176]   
+  .git/objects/ef/a81c3690244cc80ba88706dfca3dcfec051bed                                                                   [1482]  
+  .git/objects/f0/991e1a72cc464cd20a49bcffcece3e97adbfb9                                                                   [20624] 
+  .git/objects/f0/b4937c7fea4193b3cfc00452429ae35eb19c3b                                                                   [6130]  
+  .git/objects/f2/90518db337a90938525a7f673369000baa4f11                                                                   [13747] 
+  .git/objects/f2/df91b9bf25fa487baad5d8908da918b9ad91f9                                                                   [10307] 
+  .git/objects/f3/4ae272f04042a25cee778ceba0b28e836f953e                                                                   [2418]  
+  .git/objects/f3/597c9c2dcb16a7c512d6f0d5270b0d72c5f60e                                                                   [13631] 
+  .git/objects/f4/0c9f0699a9de1ce88193c5e48cfb047b8096ff                                                                   [1229]  
+  .git/objects/f5/5d503dbbd34d32a68cf2516b06c1c8d8a8e3cc                                                                   [11891] 
+  .git/objects/f5/d28bfc77906c45cbb18da5550fadc780f9962c                                                                   [9935]  
+  .git/objects/f5/ee86c90981aca9a3a22ccbe32cc047dc9ffe89                                                                   [120]   
+  .git/objects/f6/ac54989a263684abd9fd4a434e8e946f0893ce                                                                   [16748] 
+  .git/objects/f7/9203c1867875ea2a7019c3a5c7ac8770463aab                                                                   [13264] 
+  .git/objects/f7/9c4404ea7941f748edbaeda08d4a2cd5e4fc7c                                                                   [11419] 
+  .git/objects/f7/b1968dabb09e7f1ef71c4ccf8d88f515074e70                                                                   [2419]  
+  .git/objects/f8/661ff41fea0d17640049e883e5d764f28fa449                                                                   [35341] 
+  .git/objects/f8/6fffd869c58ff260e36837b3dc9508c4ae4ada                                                                   [2421]  
+  .git/objects/f9/2b849d65407e7cb88c50eab62d6857db353350                                                                   [2430]  
   .git/objects/f9/4742d0c3ae61a745569eeeaaa342fc3d19d387                                                                   [47]    
+  .git/objects/f9/f4b109a0fc7d7b3a18d469706e0ddd984a5ace                                                                   [4735]  
+  .git/objects/fa/e94e9ec0bd37456c4a9f0e8ea42e5ba16eddb2                                                                   [2418]  
+  .git/objects/fb/23edfcfb98e669f4903aef36d3999114ffaf15                                                                   [14552] 
   .git/objects/fb/739a624c605b3589379fd37e2ba6dd0c56b3f2                                                                   [1204497]
+  .git/objects/fb/815a8c0c6db1f11544ca3afa80d615eb37adb6                                                                   [7714]  
   .git/objects/fb/f489751f3a96f103e93018e4703e97618f1416                                                                   [308]   
+  .git/objects/fc/227f078627bc00796f4b96eb7acb777078d597                                                                   [2419]  
+  .git/objects/fd/83d3b0dc90a52bb8c8cb221d49b10bbc7ee36f                                                                   [129]   
+  .git/objects/fd/8827d4219576a94354ed3a3510ae153dd6137c                                                                   [2421]  
+  .git/objects/fe/b28297e03ef960b3715115f4379e844420b4c8                                                                   [2406]  
+  .git/objects/ff/18aeac0780612aba102c641c31621c080ff88c                                                                   [31065] 
   .git/objects/ff/41a3db69c37b99bafeace5a1926354952674d4                                                                   [888]   
+  .git/objects/ff/75ed5d47b4e2d50de8ed31f5c78e08065b03c0                                                                   [20371] 
+  .git/objects/ff/e98ffa30f77ca942cd9245db8644ccb5ab22e4                                                                   [2414]  
   .git/objects/pack/pack-e2ef07376d48d89225b1fc84dc6db53aec77dc6d.idx                                                      [33888] 
   .git/objects/pack/pack-e2ef07376d48d89225b1fc84dc6db53aec77dc6d.pack                                                     [26829758]
   .git/refs/heads/master                                                                                                   [41]    
@@ -249,7 +804,7 @@ File listing for /Users/t32k/Github/Nyars
   build/iphone/module.xcconfig                                                                                             [43]    
   build/iphone/Nyars_Prefix.pch                                                                                            [340]   
   build/iphone/project.xcconfig                                                                                            [276]   
-  build/iphone/build/build.log                                                                                             [19437] 
+  build/iphone/build/build.log                                                                                             [92703] 
   build/iphone/Classes/AccelerometerModule.h                                                                               [459]   
   build/iphone/Classes/AccelerometerModule.m                                                                               [1265]  
   build/iphone/Classes/AnalyticsModule.h                                                                                   [543]   
@@ -812,21 +1367,21 @@ File listing for /Users/t32k/Github/Nyars
   build/iphone/Resources/Entitlements.plist                                                                                [227]   
   build/iphone/Resources/stylesheet.plist                                                                                  [104]   
   Resources/.DS_Store                                                                                                      [6148]  
-  Resources/app.js                                                                                                         [1318]  
+  Resources/app.js                                                                                                         [1169]  
   Resources/appicon.png                                                                                                    [4777]  
   Resources/camera.js                                                                                                      [2857]  
   Resources/images/.DS_Store                                                                                               [6148]  
-  Resources/images/bg.jpg                                                                                                  [22477] 
+  Resources/images/bg.jpg                                                                                                  [59909] 
   Resources/images/ears_black.png                                                                                          [16935] 
   Resources/images/ears_white.png                                                                                          [14064] 
   Resources/iPhone/.DS_Store                                                                                               [6148]  
   Resources/iPhone/512icon.png                                                                                             [126469]
   Resources/iPhone/appicon.png                                                                                             [4777]  
   Resources/iPhone/appicon@2x.png                                                                                          [14183] 
-  Resources/iPhone/Default.png                                                                                             [47372] 
-  Resources/iPhone/Default@2x.png                                                                                          [120587]
+  Resources/iPhone/Default.png                                                                                             [45929] 
+  Resources/iPhone/Default@2x.png                                                                                          [117726]
 ----------------------------------------------------------------------------------------------------------------------------------
-Total files: 245.0 MB
+Total files: 273.0 MB
 
 Contents of Info.plist
 
@@ -872,7 +1427,7 @@ Contents of Info.plist
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1301072153</string>
+	<string>1.0.1301081019</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
         <key>UIPrerenderedIcon</key>
@@ -954,15 +1509,15 @@ Build settings from command line:
 === BUILD NATIVE TARGET Nyars OF PROJECT Nyars WITH CONFIGURATION Release ===
 Check dependencies
 
-ProcessInfoPlistFile build/Release-iphoneos/Nyars.app/Info.plist Info.plist
-    cd /Users/t32k/Github/Nyars/build/iphone
-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    builtin-infoPlistUtility Info.plist -genpkginfo /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/ResourceRules.plist -o /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Info.plist
-
 CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Release-iphoneos/Nyars.app/ResourceRules.plist
     cd /Users/t32k/Github/Nyars/build/iphone
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app
+
+ProcessInfoPlistFile build/Release-iphoneos/Nyars.app/Info.plist Info.plist
+    cd /Users/t32k/Github/Nyars/build/iphone
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-infoPlistUtility Info.plist -genpkginfo /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/ResourceRules.plist -o /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Info.plist
 
 CopyPlistFile build/Release-iphoneos/Nyars.app/stylesheet.plist Resources/stylesheet.plist
     cd /Users/t32k/Github/Nyars/build/iphone
@@ -1315,7 +1870,6 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] detected symbol: UI.iPhone.setStatusBarStyle
 [DEBUG] detected symbol: UI.iPhone.StatusBar.OPAQUE_BLACK
 [DEBUG] detected symbol: UI.createWindow
-[DEBUG] detected symbol: UI.createLabel
 [DEBUG] detected symbol: UI.createButton
 [DEBUG] detected symbol: UI.iPhone.SystemButton.CAMERA
 [DEBUG] detected symbol: UI.createButton
@@ -1456,14 +2010,14 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default.png
-[DEBUG] Total length of data found in IDAT chunks    =    47278
+[DEBUG] Total length of data found in IDAT chunks    =    45835
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    53297
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    52051
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default-pngcrush.png
-[DEBUG] (12.73% IDAT increase)
-[DEBUG] (12.74% filesize increase)
-[DEBUG] CPU time used = 0.119 seconds (decoding 0.011,
-[DEBUG] encoding 0.091, other 0.017 seconds)
+[DEBUG] (13.56% IDAT increase)
+[DEBUG] (13.57% filesize increase)
+[DEBUG] CPU time used = 0.117 seconds (decoding 0.011,
+[DEBUG] encoding 0.089, other 0.017 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -1481,14 +2035,14 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default@2x.png
-[DEBUG] Total length of data found in IDAT chunks    =   120493
+[DEBUG] Total length of data found in IDAT chunks    =   117632
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =   129766
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =   126885
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default@2x-pngcrush.png
-[DEBUG] (7.70% IDAT increase)
-[DEBUG] (7.70% filesize increase)
-[DEBUG] CPU time used = 0.298 seconds (decoding 0.038,
-[DEBUG] encoding 0.218, other 0.043 seconds)
+[DEBUG] (7.87% IDAT increase)
+[DEBUG] (7.87% filesize increase)
+[DEBUG] CPU time used = 0.289 seconds (decoding 0.038,
+[DEBUG] encoding 0.207, other 0.044 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default@2x.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -1561,7 +2115,7 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] (14.99% IDAT increase)
 [DEBUG] (15.00% filesize increase)
 [DEBUG] CPU time used = 0.167 seconds (decoding 0.018,
-[DEBUG] encoding 0.126, other 0.024 seconds)
+[DEBUG] encoding 0.125, other 0.024 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/512icon.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -1629,14 +2183,14 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default.png
-[DEBUG] Total length of data found in IDAT chunks    =    47278
+[DEBUG] Total length of data found in IDAT chunks    =    45835
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    53297
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =    52051
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default-pngcrush.png
-[DEBUG] (12.73% IDAT increase)
-[DEBUG] (12.74% filesize increase)
-[DEBUG] CPU time used = 0.118 seconds (decoding 0.011,
-[DEBUG] encoding 0.091, other 0.016 seconds)
+[DEBUG] (13.56% IDAT increase)
+[DEBUG] (13.57% filesize increase)
+[DEBUG] CPU time used = 0.117 seconds (decoding 0.011,
+[DEBUG] encoding 0.089, other 0.016 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -1654,14 +2208,14 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] |    Jean-loup Gailly and Mark Adler.
 [DEBUG] | It was compiled with gcc version 4.2.1 (Apple Inc. build 5666) (dot 3) and modified by Apple as indicated in the sources.
 [DEBUG] Recompressing /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default@2x.png
-[DEBUG] Total length of data found in IDAT chunks    =   120493
+[DEBUG] Total length of data found in IDAT chunks    =   117632
 [DEBUG] Adding an opaque alpha channel.
-[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =   129766
+[DEBUG] IDAT length with method 120 (fm 0 zl 9 zs 1) =   126885
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default@2x-pngcrush.png
-[DEBUG] (7.70% IDAT increase)
-[DEBUG] (7.70% filesize increase)
-[DEBUG] CPU time used = 0.296 seconds (decoding 0.037,
-[DEBUG] encoding 0.216, other 0.043 seconds)
+[DEBUG] (7.87% IDAT increase)
+[DEBUG] (7.87% filesize increase)
+[DEBUG] CPU time used = 0.288 seconds (decoding 0.038,
+[DEBUG] encoding 0.207, other 0.044 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default@2x.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -1733,7 +2287,7 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/modules/ui/images/photoDefault-pngcrush.png
 [DEBUG] (31.71% IDAT increase)
 [DEBUG] (31.36% filesize increase)
-[DEBUG] CPU time used = 0.029 seconds (decoding 0.005,
+[DEBUG] CPU time used = 0.029 seconds (decoding 0.004,
 [DEBUG] encoding 0.015, other 0.010 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/modules/ui/images/photoDefault.png
 
@@ -2115,17 +2669,17 @@ CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiU
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiUITabController.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUITabController.o
 
-CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUISystemIconProxy.o Classes/TiUISystemIconProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-    cd /Users/t32k/Github/Nyars/build/iphone
-    setenv LANG en_US.US-ASCII
-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiUISystemIconProxy.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUISystemIconProxy.o
-
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUITabbedBarProxy.o Classes/TiUITabbedBarProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
     setenv LANG en_US.US-ASCII
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiUITabbedBarProxy.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUITabbedBarProxy.o
+
+CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUISystemIconProxy.o Classes/TiUISystemIconProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+    cd /Users/t32k/Github/Nyars/build/iphone
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiUISystemIconProxy.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUISystemIconProxy.o
 
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUISystemButtonStyleProxy.o Classes/TiUISystemButtonStyleProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
@@ -2835,17 +3389,17 @@ CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiU
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiUIMaskedImage.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUIMaskedImage.o
 
-CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiNetworkBonjourServiceProxy.o Classes/TiNetworkBonjourServiceProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-    cd /Users/t32k/Github/Nyars/build/iphone
-    setenv LANG en_US.US-ASCII
-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiNetworkBonjourServiceProxy.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiNetworkBonjourServiceProxy.o
-
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiNetworkBonjourBrowserProxy.o Classes/TiNetworkBonjourBrowserProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
     setenv LANG en_US.US-ASCII
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiNetworkBonjourBrowserProxy.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiNetworkBonjourBrowserProxy.o
+
+CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiNetworkBonjourServiceProxy.o Classes/TiNetworkBonjourServiceProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+    cd /Users/t32k/Github/Nyars/build/iphone
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiNetworkBonjourServiceProxy.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiNetworkBonjourServiceProxy.o
 
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiNetworkTCPSocketProxy.o Classes/TiNetworkTCPSocketProxy.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
@@ -3027,17 +3581,17 @@ CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiD
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-edpercjyobahmoddodudvbpukfqo/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiDebugger.mm -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiDebugger.o
 
-CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/AsyncSocket.o Classes/AsyncSocket.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-    cd /Users/t32k/Github/Nyars/build/iphone
-    setenv LANG en_US.US-ASCII
-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/AsyncSocket.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/AsyncSocket.o
-
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/AsyncUdpSocket.o Classes/AsyncUdpSocket.m normal armv6 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
     setenv LANG en_US.US-ASCII
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/AsyncUdpSocket.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/AsyncUdpSocket.o
+
+CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/AsyncSocket.o Classes/AsyncSocket.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+    cd /Users/t32k/Github/Nyars/build/iphone
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/AsyncSocket.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/AsyncSocket.o
 
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiDebuggerCallFrame.o Classes/TiDebuggerCallFrame.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone

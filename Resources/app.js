@@ -3,11 +3,6 @@ var homeWindow = Ti.UI.createWindow({
   title: 'Home',
   backgroundImage: 'images/bg.jpg'
 });
-var label = Ti.UI.createLabel({
-  color: '#111',
-  text: 'かめらで猫耳しちゃいなよ！',
-  textAlign: 'center'
-});
 var btSelectColor = Ti.UI.createButton({
   systemButton: Ti.UI.iPhone.SystemButton.CAMERA
 });
@@ -46,5 +41,4 @@ selectColor.addEventListener('click', function (e) {
 
 // Add item to window part.
 homeWindow.add(toolbar);
-homeWindow.add(label);
 homeWindow.open();
