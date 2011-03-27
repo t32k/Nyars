@@ -4,17 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>512icon.png</key>
+		<key>512appicon.png</key>
 		<data>
-		xZUPZeeNhOCh2PN5on3Y+5O4G9E=
+		wstAD0uYD7yN/PZssDtJATNAqW4=
 		</data>
 		<key>Default.png</key>
 		<data>
-		2DgZea98jvEyK7pKmlMWMiR9v/o=
+		1p+FmrqQ6cCWlZoFARIC482yIZU=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		v3FtVa/88qofH3WyRtVaZN/8vR8=
+		KnZs9avAUq/UqvdxHIK5XCAfEV8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -22,39 +22,47 @@
 		</data>
 		<key>appicon.png</key>
 		<data>
-		M4vVcmI5FjzRnb6q56a/oL/3jnU=
+		oJW7ztZIpQRzM7MB7I/HiPzRJb0=
 		</data>
 		<key>appicon@2x.png</key>
 		<data>
-		U/hRYL9ZfJkfEbm6QxWXwfTAcak=
+		ncGoiuio+EqGej8IzjDpq0ED7Nk=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		XdBZ5BF0HilTfzOzaDZhgrYmws4=
 		</data>
-		<key>iPhone/512icon.png</key>
+		<key>iPhone/512appicon.png</key>
 		<data>
-		xZUPZeeNhOCh2PN5on3Y+5O4G9E=
+		wstAD0uYD7yN/PZssDtJATNAqW4=
 		</data>
 		<key>iPhone/Default.png</key>
 		<data>
-		2DgZea98jvEyK7pKmlMWMiR9v/o=
+		1p+FmrqQ6cCWlZoFARIC482yIZU=
 		</data>
 		<key>iPhone/Default@2x.png</key>
 		<data>
-		v3FtVa/88qofH3WyRtVaZN/8vR8=
+		KnZs9avAUq/UqvdxHIK5XCAfEV8=
 		</data>
 		<key>iPhone/appicon.png</key>
 		<data>
-		M4vVcmI5FjzRnb6q56a/oL/3jnU=
+		oJW7ztZIpQRzM7MB7I/HiPzRJb0=
 		</data>
 		<key>iPhone/appicon@2x.png</key>
 		<data>
-		U/hRYL9ZfJkfEbm6QxWXwfTAcak=
+		ncGoiuio+EqGej8IzjDpq0ED7Nk=
 		</data>
-		<key>images/bg.jpg</key>
+		<key>images/bg.png</key>
 		<data>
-		GKXutB92czq77VOd4AhWyIVsQQU=
+		6klQI6Hs4GRiWE5dZpnxcWwVM5E=
+		</data>
+		<key>images/bg_off.png</key>
+		<data>
+		4mPTUgdOD7Kh4sOaHA6fN6X7Puk=
+		</data>
+		<key>images/bg_on.png</key>
+		<data>
+		V61gKJwW0Few1GxcL1H+Ze9veY8=
 		</data>
 		<key>images/ears_black.png</key>
 		<data>
@@ -63,6 +71,10 @@
 		<key>images/ears_white.png</key>
 		<data>
 		WO+qjukFsYFOuWFfLMJD6yP/ijk=
+		</data>
+		<key>images/logo.png</key>
+		<data>
+		2levC1ZV9GjiJLea3t+sqRx0IOo=
 		</data>
 		<key>modules/ui/images/badge.png</key>
 		<data>

@@ -5,7 +5,7 @@
 <version>1.0</version>
 <publisher>t32k</publisher>
 <url>http://twitter.com/t32k</url>
-<description>No description provided</description>
+<description>Take a picture with Nekomimi.</description>
 <copyright>2011 by t32k</copyright>
 <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
