@@ -5,7 +5,7 @@ reporting an issue to help us understand your environment, build settings
 and aid in debugging. Please attach this log to any issue that you report.
 ================================================================================
 
-Starting build at 03/28/11 00:15
+Starting build at 03/28/11 11:09
 
 Build details:
 
@@ -145,12 +145,12 @@ File listing for /Users/t32k/Github/Nyars
   manifest                                                                                                                 [181]   
   README                                                                                                                   [551]   
   tiapp.xml                                                                                                                [1157]  
-  .git/COMMIT_EDITMSG                                                                                                      [73]    
+  .git/COMMIT_EDITMSG                                                                                                      [70]    
   .git/config                                                                                                              [273]   
   .git/description                                                                                                         [73]    
   .git/FETCH_HEAD                                                                                                          [83]    
   .git/HEAD                                                                                                                [23]    
-  .git/index                                                                                                               [152656]
+  .git/index                                                                                                               [153616]
   .git/ORIG_HEAD                                                                                                           [41]    
   .git/packed-refs                                                                                                         [94]    
   .git/hooks/applypatch-msg.sample                                                                                         [452]   
@@ -164,9 +164,9 @@ File listing for /Users/t32k/Github/Nyars
   .git/hooks/prepare-commit-msg.sample                                                                                     [1239]  
   .git/hooks/update.sample                                                                                                 [3611]  
   .git/info/exclude                                                                                                        [250]   
-  .git/logs/HEAD                                                                                                           [1028]  
-  .git/logs/refs/heads/master                                                                                              [1028]  
-  .git/logs/refs/remotes/origin/master                                                                                     [802]   
+  .git/logs/HEAD                                                                                                           [1189]  
+  .git/logs/refs/heads/master                                                                                              [1189]  
+  .git/logs/refs/remotes/origin/master                                                                                     [952]   
   .git/objects/00/1b2fd2c3523227ca57916a0d5118b3b3406269                                                                   [41741] 
   .git/objects/00/218c714324d3a4f5ffda2fd1b2329b44e591a0                                                                   [2420]  
   .git/objects/00/5b3596dc27a94e857bfc32decb3d9137a8550a                                                                   [2611930]
@@ -191,6 +191,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/06/645f31133549b2de5169bc5eda85312a79529a                                                                   [21347] 
   .git/objects/06/956c53e2f243ab7c1f12c2307ad624b70eba71                                                                   [2419]  
   .git/objects/07/02e3a2789520226234120d9743e70904f8dcc9                                                                   [177]   
+  .git/objects/07/5ed80a4699f8b1bfc12fc082c1562982516a92                                                                   [171]   
   .git/objects/07/a0321c9d0cbb5b76e364540d71448f038efbff                                                                   [25312] 
   .git/objects/07/c7ba3142e93a5630cb55910ffcc9a18fb62503                                                                   [2417]  
   .git/objects/08/d8de5d8e9da6061765caca1038c5ec8a6b18ba                                                                   [16257374]
@@ -208,12 +209,14 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/0d/6046399b641a0fca868cd2da5089323ae0991a                                                                   [45096] 
   .git/objects/0d/b1aacbd2f11bdf0ea290979e149fdd2f7965e7                                                                   [182]   
   .git/objects/0d/ba18bd92e1edfb5465f96804304dfdc8609e6c                                                                   [6095]  
+  .git/objects/0e/22c6a9efa28d83fddbe65bed2608a4b3bff13d                                                                   [740]   
   .git/objects/0e/24edc147af40d04d77ae8cae90c52ebd6dd52a                                                                   [71063] 
   .git/objects/0e/7a21636ef8b3ae025b07ee2099a215ff3df501                                                                   [2407]  
   .git/objects/0f/72cbc893d6a12d8a20bb73718f00c122adeeae                                                                   [12858] 
   .git/objects/0f/dc7690fc534165310fbefd89f0889a012fabb4                                                                   [3299]  
   .git/objects/10/2162bba3b848a35d8f986b57ad571366489269                                                                   [2422]  
   .git/objects/10/86eb3272e633f93399f16fa627f1864b71d569                                                                   [2416]  
+  .git/objects/10/c036000c340d280fc4b38659171170c4577826                                                                   [44305] 
   .git/objects/11/61db28a8851b75ced3c0440ea09dc4c086ec00                                                                   [13700] 
   .git/objects/11/ae70137784180ad9723ad846600c5dee904949                                                                   [2423]  
   .git/objects/13/0ff6f1a4381de8b02d651443b91bdad212fb49                                                                   [6301]  
@@ -223,27 +226,34 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/14/99e18d0e63c0a778670a30cd512acbe32f17b5                                                                   [62123] 
   .git/objects/14/c673c807ceb5c51f7271227bfd6a9b33398987                                                                   [177]   
   .git/objects/14/f29d3602496304f7b2651e8900ef60c6d7a4ce                                                                   [20262] 
+  .git/objects/15/56b0905ceb2b170959d2c7dca4202a32e9d016                                                                   [7714]  
   .git/objects/15/5d1358b4f426af9e515504436961e0783973d3                                                                   [50162] 
   .git/objects/15/852b713e21929c4320aa29d0ed2dd51484dd4f                                                                   [12907] 
   .git/objects/15/99956acd334bd25a23902328e1f19b6cf1426d                                                                   [2418]  
   .git/objects/17/1af2c5ff34033761a184931f2e5a3681a1e9ee                                                                   [7533]  
   .git/objects/17/332d6bf4442c250f7816fcc579b2b49c7c4897                                                                   [8223]  
   .git/objects/17/68ccbc07576e3195278ffd92c56d259ba11958                                                                   [2424]  
+  .git/objects/17/85eea3fbb3bab832b29a57ae176a5370cf111c                                                                   [172]   
   .git/objects/17/c2d6332012453fbddbc47ffd026e3a89261ecc                                                                   [2419]  
   .git/objects/18/cae9a33cf9b39360f84d678c6cc56eb54e5493                                                                   [30336] 
+  .git/objects/19/19f679ad3859c995c18e661f05ae5a5173b76f                                                                   [1217777]
   .git/objects/19/7425de3268462fe11755c01c20e206fb3864d6                                                                   [2423]  
+  .git/objects/19/853baed099b3b02cf95888b2dff6c6908d7721                                                                   [6354]  
   .git/objects/19/c53d52871f4b27a855e51ae5a1eb0c26fb3bfb                                                                   [13810] 
   .git/objects/19/df2c25945f0a0d707740d0bad5aee14c60f4c8                                                                   [171]   
   .git/objects/19/f75f515484e0d94d1ce073e08990309ccd0f2d                                                                   [15862] 
   .git/objects/1a/04b219c6a497aaa61f2d3f09d96ddbe5eff431                                                                   [120]   
   .git/objects/1a/1428b9605680dfe2bb235853cc9a9c7b5a5222                                                                   [20258] 
+  .git/objects/1a/7ba238ccf578d0298df0adac946a3e2d80055b                                                                   [2581]  
   .git/objects/1a/d49d9963bfdff0a0b84b96c1365ccebfe6bb4c                                                                   [17204] 
   .git/objects/1b/3230362d17a1ae6ea7e8254b595a528590b86b                                                                   [2409]  
+  .git/objects/1b/4a2bace8ddda4cd122f58bc336f205559081cd                                                                   [7061]  
   .git/objects/1b/58c5abb2918741f58c2de26718bc9221c2eb4f                                                                   [2420]  
   .git/objects/1b/69896f0e52654e026dd2b7904952a74f45bee4                                                                   [21183] 
   .git/objects/1b/ba39a91b22c09dcc9783df8175c412c4fc67c0                                                                   [2410]  
   .git/objects/1d/1a8fd770b76f817868020c901c860393db68df                                                                   [2406]  
   .git/objects/1d/529d1c235cd7c9378e25ed8d873db8cb3403ee                                                                   [115]   
+  .git/objects/1d/6f233812c13233d151038ae7b7cf98c5c87e4f                                                                   [34938] 
   .git/objects/1d/e9bbc535c576e7acfba8631b5c4744452fe420                                                                   [120]   
   .git/objects/1d/fae1f099d1ddec34876baa41eafbbe15c02704                                                                   [2418]  
   .git/objects/1e/0d1b8a2c744c1e66763d334ebd1a5e5f45a617                                                                   [120]   
@@ -266,8 +276,10 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/21/98daa30bc5b53f935792a1e6763f9c51f38cf4                                                                   [320]   
   .git/objects/23/023c6006d03d103bddcc8118eea49b005e3322                                                                   [2408]  
   .git/objects/23/36f8786ae17bdd93d824f2853fd39a816cadd1                                                                   [2420]  
+  .git/objects/23/4139b51d3455e92399c257cf40fa2921af9194                                                                   [462]   
   .git/objects/23/56486392df68808cc639ee6123f6c679e3be7e                                                                   [30307] 
   .git/objects/23/6ae87130d817d37263aacd2d74b8e1025a0e48                                                                   [40191] 
+  .git/objects/23/d5269de4ca6f6cdfdf40ff6ff183b375b1c787                                                                   [51]    
   .git/objects/24/56aed97d9d980efca82ae5a40019cf6f3c2db4                                                                   [35194] 
   .git/objects/25/3788b11703307125dacafbc6907a5e730bbca4                                                                   [3258]  
   .git/objects/25/98cc77f880cc863d16d8798f41d203cbe06acf                                                                   [129]   
@@ -284,6 +296,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/28/f8dd6a893c8320a25d82e47d6c574382a3bdb8                                                                   [2420]  
   .git/objects/29/36a2e2e703b2f34945b146ae417c96cd5e6a94                                                                   [2420]  
   .git/objects/29/5daad4fabddfdc793b7a517e8fc01fa9ede344                                                                   [2417]  
+  .git/objects/29/9519febf96323e8ff633c3be019d17c0a40a3a                                                                   [129]   
   .git/objects/29/f1bbe9cb81022c21cc72cbe44d49a71c078aaf                                                                   [21343] 
   .git/objects/2a/724b904e70e515ff51ecc77d20be77dc4264fb                                                                   [2411]  
   .git/objects/2a/cf14093de300eafb64cba000e9eb375340ad00                                                                   [18453] 
@@ -291,6 +304,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/2b/e124a2d313001fb422c6e11ae7207f8466c86a                                                                   [8511]  
   .git/objects/2b/fb860f74143e89f15388d4815666f535bdff6a                                                                   [17047] 
   .git/objects/2c/6b1bef0bda4a2345ac288e01cb621d995ea1d7                                                                   [2422]  
+  .git/objects/2c/93de0053c9f37c6dc9dc879e66e33fc6b757cd                                                                   [1960057]
   .git/objects/2c/bd383bbbdeb64b7bc9dc4f4164eb066d98f8b3                                                                   [2422]  
   .git/objects/2c/dffc392082b73b456f0e0705a3d7843af7f2f7                                                                   [3271]  
   .git/objects/2c/eafb54977d907fdbe11318578dc76f96c9798e                                                                   [2418]  
@@ -300,6 +314,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/2e/49dc41445727a238349d6f87fb16a054969589                                                                   [4451]  
   .git/objects/2e/5b11c80e475aef289b3865171423d7be705c12                                                                   [59]    
   .git/objects/2e/ea5a4d4a89ddc9f83963053ca21dc2a93359ed                                                                   [83]    
+  .git/objects/2e/f320288a6f9060c51fe606b798a8f6da578aaa                                                                   [93498] 
   .git/objects/2f/56640e41e3bcef22eb3f2b33f92052ceec7f57                                                                   [2413]  
   .git/objects/2f/da5f1598814f672147fba4dcfb7d07cf484fc1                                                                   [2424]  
   .git/objects/30/467961c48363877424eec8d842498dae26abaa                                                                   [2414]  
@@ -310,6 +325,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/31/47dd1b70260e35760e6b11d766f47d7f8563d1                                                                   [2419]  
   .git/objects/31/53ebf34ebef22bbe3f64c1ca17d2305da0631f                                                                   [2421]  
   .git/objects/31/9c433377b9669c5dfae35272b071bb6d27aa79                                                                   [2407]  
+  .git/objects/31/cffcc71b886fe503e836b4bfc2b6ff2ae10f11                                                                   [18476] 
   .git/objects/32/2512f8afe60853c5e616ed18e25d4cfa35ce26                                                                   [11367] 
   .git/objects/32/4b50623513203f7ac1931eb04f89a8b787bee6                                                                   [48104] 
   .git/objects/32/986119e9fa471a92ff65c37107fe9eb7c72c9b                                                                   [2412]  
@@ -326,6 +342,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/37/4ffda57ba6737863f2444d19bc44db47e03c22                                                                   [89329] 
   .git/objects/37/ddc583ffd76127c577d2f5b18a05e393f990f6                                                                   [2419]  
   .git/objects/37/edbfff0d44cd74618c5a44e7d1077016c1a1e9                                                                   [53144] 
+  .git/objects/38/3d949350053475caf896d2103bfc8b2f21fe01                                                                   [2824]  
   .git/objects/38/58aad9c331c7f9f2f2804fcfe000134a14ea2b                                                                   [12362] 
   .git/objects/39/b9be44656d2070c753658ef4c2613a61936046                                                                   [9159]  
   .git/objects/3b/b98db75b0f82186cd87fe0bab3176a4e67f5bf                                                                   [2422]  
@@ -357,6 +374,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/47/cfd6a35ed40f6fbc4bae0d3dc034c47889d5f7                                                                   [2420]  
   .git/objects/48/28735163c78d662785bc464d6d08e12f8147c5                                                                   [2421]  
   .git/objects/48/40f4c89180b12786b1b39235d639d5f422c25f                                                                   [22244] 
+  .git/objects/48/6825b0d4e52a0190cd7617674c8a8d9ea8c899                                                                   [887]   
   .git/objects/48/a0f16b69bf5d07285ca345a83fc58d48acd860                                                                   [12895] 
   .git/objects/48/d2aae174a6fc2f7740840dde178eab47c43bb5                                                                   [35132] 
   .git/objects/49/97a66d5f0db6fff140715624306ca65d3e7ed5                                                                   [19789] 
@@ -370,6 +388,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/4b/dea1090b8f572702904b612b60c82967f4cbf1                                                                   [6527]  
   .git/objects/4c/d21a31b3850cd4bdec22701d1a21513839e319                                                                   [17668] 
   .git/objects/4d/2caf35281afaadc4d0c311a2a3d127a8d7b133                                                                   [2417]  
+  .git/objects/4d/728578b70d6ed8fecfca51247bb013857c6613                                                                   [80685] 
   .git/objects/4d/a57744ffa09efb5a2bb260e1b6a3e681960725                                                                   [6934]  
   .git/objects/4e/523ffe7c7f1ae4f055535e5f8766cc39ad524f                                                                   [2425]  
   .git/objects/4e/849969ef186618d858baddab1f85080fdd4356                                                                   [2408]  
@@ -379,6 +398,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/4f/cf0d6e845b541110743f70827d5cc0b10fe172                                                                   [115]   
   .git/objects/4f/fb885a03ab5bfd5ce86fa304641e407991b8e2                                                                   [42738] 
   .git/objects/50/18ea3ac26ca41176c33549e3864476cb0e32a9                                                                   [2413]  
+  .git/objects/50/656cbf0b4d56c7e2fd640168188afa8c4189cb                                                                   [1274627]
   .git/objects/50/b2b59504f296ee551c13022d7fa1d90ab7fe3c                                                                   [3258]  
   .git/objects/51/6528693e3df8c047e794706b0f49bc81c7f0ea                                                                   [14871] 
   .git/objects/51/e3c818c628c22adcefac6ff25fb418ee105a4b                                                                   [70657] 
@@ -401,10 +421,12 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/56/c8c586763496b7a1acc3a85ecb6e6d82624856                                                                   [2417]  
   .git/objects/57/f5ad33a328b4e2c375225933fe360b5209e422                                                                   [2418]  
   .git/objects/58/619034db695bbfee95258a4605781fc79bbe68                                                                   [2410]  
+  .git/objects/58/8466d465ef2e92dcf90627e5e65ccce099f7eb                                                                   [30662] 
   .git/objects/58/f6d0be41493cf309c6787d7c038f5e256fc300                                                                   [2407]  
   .git/objects/59/247a404cf8ca6fe4aea9a92c1d644ca5a4d2ab                                                                   [2433]  
   .git/objects/59/47ac69e6a7c21cb5b11d83f3b659d2e5133eaf                                                                   [6229]  
   .git/objects/59/9e9b53a02f64f3d5f52b21c5b92f596f6830ed                                                                   [6435]  
+  .git/objects/59/e3265e41ae2d16e24403a8a07232aef2a93c68                                                                   [6861]  
   .git/objects/5a/5d8e3d237b155bc00fa6f891a26c964ab7fbfc                                                                   [30660] 
   .git/objects/5b/0cc2806ebca950c3d74141135c3601dd563002                                                                   [2413]  
   .git/objects/5b/37a0a027ca8947a79177e10c914f4796e66cfb                                                                   [25217] 
@@ -424,34 +446,45 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/5f/ef234234c0eaaae04d91e5210c08cdfae17ada                                                                   [2422]  
   .git/objects/60/a60f2772255137009e1961cb22e2219154ec30                                                                   [2418]  
   .git/objects/61/079315a07852426b53c2d2ff60aff985877593                                                                   [4688]  
+  .git/objects/61/0eacca8cd985730d0fd4ef7e7b5b24532dfb63                                                                   [383]   
   .git/objects/61/290f1fad3d15adb89b60cc819448ce7aafd783                                                                   [31217] 
   .git/objects/61/38cdddb13af60088da3d4503702c2eb6baaa30                                                                   [13620] 
+  .git/objects/62/3eff99b831c855de08a7ace99ea1998d54d526                                                                   [294177]
+  .git/objects/62/81d7e7c99533af16ced8f8be2a6a19392d7a86                                                                   [888]   
+  .git/objects/62/aabdca209d3761a450b34d0ba0564d777ea26e                                                                   [47]    
   .git/objects/63/5448608bc5f12253eae112b2b54b8963d12186                                                                   [2420]  
   .git/objects/63/a92462445898b639774ab73dd59dcb31f23d96                                                                   [11736] 
   .git/objects/63/b79ef54b8698f7633418789b28866af201174c                                                                   [72]    
   .git/objects/64/09a89df7137a234e87745d16f29802ff4c37fd                                                                   [5230]  
   .git/objects/64/6a9a6a40e7adad3ddcdb4e614833f3bc243c06                                                                   [4459]  
   .git/objects/64/7753774ffc03b20dfeace7407b45797f378c4b                                                                   [14086] 
+  .git/objects/64/79445c5b9797419c817f233eb5168bca03550d                                                                   [433530]
+  .git/objects/64/95d49da83b401f9c373dbd14cb8d1908ced3dd                                                                   [370222]
   .git/objects/65/35b24b112c684e06e8bba447bc87206d411d13                                                                   [7885]  
+  .git/objects/65/4e5cf4d303928857d8f1287a111a14eeb702cd                                                                   [543]   
   .git/objects/65/d230f4781ce240199fb03a1e9966fa447fe166                                                                   [1692]  
   .git/objects/66/e8399e804343d8255248cc7f4f31702a7294f6                                                                   [10133] 
   .git/objects/67/19eb12d46cd3a4f019bc4ecbfc4a1cf925ec8e                                                                   [1952455]
   .git/objects/67/8b275c43fed10ee55e812c201365569a5b3b49                                                                   [2421]  
+  .git/objects/67/dc4daeb8e154c476b25b1812a2bed620ee0e2d                                                                   [6300542]
   .git/objects/67/e02257294d5b14519a030d908bb10c589ff0bc                                                                   [7716]  
   .git/objects/67/e80c0dd9e7b54483256db841c9bf21da89129e                                                                   [2422]  
   .git/objects/68/3419e40f27be852ece2e4fff42abc15a73e5ff                                                                   [2419]  
   .git/objects/68/8159dfe31fba94e8948c2425aa2f97d3012c7e                                                                   [2418]  
   .git/objects/68/dc923623eb31d14c17542fa86503bb8d1ab2b4                                                                   [7766]  
+  .git/objects/68/fcbad6a387bc207f6bc3c26c21287d65e1f886                                                                   [59]    
   .git/objects/69/967cdbcac2bf0e49058f6234263deb37df7ec7                                                                   [9972]  
   .git/objects/69/972e8277bbf2c68610c4066a2613aa8cde45a8                                                                   [26445] 
   .git/objects/69/b5176c423c51f05d8ac490d38e19166f6ebbc6                                                                   [2412]  
   .git/objects/69/cca7d7b4c9695038cb455d352021e81d36d5a2                                                                   [4798]  
   .git/objects/6b/0b24ccba972ce976c06cfdf42d17f933fbd443                                                                   [33419] 
   .git/objects/6b/64f2e94c62d65e53df37591e844520b8d31bdb                                                                   [50]    
+  .git/objects/6b/d9f4aa53917be7741d0d72cfa22785b270a80f                                                                   [462]   
   .git/objects/6b/f2ff14dbe4b5a26e3caefe02ca74453962f79f                                                                   [27391] 
   .git/objects/6c/257ae8714bccf788eb5d559da5429fc3b4787d                                                                   [2409]  
   .git/objects/6c/4ab3ab40dab28d4fe2bc04311dc4ee77d19fc1                                                                   [59]    
   .git/objects/6c/887dc01731bb6278a33e9d6ff2b9993fdf88a5                                                                   [41560] 
+  .git/objects/6d/122fd857581578f77082cbfbb3bbe66159386b                                                                   [321]   
   .git/objects/6d/45b3ceddb721ce77c6d8063447069f666f51e0                                                                   [2421]  
   .git/objects/6d/5672eeb3bfb0a5cd0d1a20757a9284ce06a9d2                                                                   [24409] 
   .git/objects/6d/59dff4b90568bad6fb62d8ff6c476047f94bc8                                                                   [19502] 
@@ -471,7 +504,9 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/70/70eaea363e6c4202b696916830a80c0fae2b6f                                                                   [16243] 
   .git/objects/70/8fea151a4f646e6c6eec2eb21a222f20979a16                                                                   [395]   
   .git/objects/70/c82b369ea19869fe9f95d440d58bfa5084103a                                                                   [2414]  
+  .git/objects/71/6645ec7a7f42653996187d623f91495bf77d35                                                                   [52]    
   .git/objects/71/93875a1274d776b40d27ce3cdf6f2a756e68dc                                                                   [2419]  
+  .git/objects/71/b89390f20bf90df7c850c266f64bdecc1d69ea                                                                   [177]   
   .git/objects/71/c83bfd9f7119785a12c2caeb25dd8f7ed9ad17                                                                   [17075] 
   .git/objects/71/e8bacc011f7e3d64d7c95187508ad89bff2e4a                                                                   [2407]  
   .git/objects/72/751e656d3754821c1315f99f9e131e740cd92e                                                                   [50586] 
@@ -483,18 +518,23 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/75/5749cb6af0380f6f12c96304c4c533823b1484                                                                   [2409]  
   .git/objects/75/781a6d99fb9954fa4fd8b2db3b42e32a2535f6                                                                   [32231] 
   .git/objects/75/fb0168b1fdfa62e662370c2c681351af1b7ff6                                                                   [2414]  
+  .git/objects/76/5defa2bf0c406269cd939e9b32baf2507431f7                                                                   [669]   
   .git/objects/76/898644b2010a6e75d7ca40baa91fdd87441c12                                                                   [2412]  
   .git/objects/76/b27701ca32531e810521b16517120d3a819121                                                                   [2421]  
   .git/objects/76/b7cf031e41eb8eba6ed2fac2c0522ac896057a                                                                   [28457] 
   .git/objects/76/d1ad97d50933a10e9ae25c9a026a2a1483acfc                                                                   [6177]  
   .git/objects/76/da7c0b50fa6fada19c11cb10bdf5ae0168d4ef                                                                   [3314]  
   .git/objects/77/2a02b4565ad8f2d57ce8cae238230face0d85d                                                                   [3315]  
+  .git/objects/77/389806b3255d5527566729512cd3f62e1c9fbc                                                                   [72]    
   .git/objects/77/890a46496f5270304beb083472812a39218cb8                                                                   [2434]  
   .git/objects/77/d450601c12a47c5c2f9ba4bfefe7eb8d311da1                                                                   [2636567]
+  .git/objects/78/5d1d969731c499f0b7ff5e565d97a05ba6cfe0                                                                   [282671]
   .git/objects/78/671d12c13a851060f293b26fedb15a5ccf09aa                                                                   [197]   
   .git/objects/78/753dabb3d390c3858d5a6c273bc3503de94559                                                                   [61713] 
+  .git/objects/78/979c7de4f77f0c53920976f3517b7d24c25d17                                                                   [191]   
   .git/objects/78/9baf5fdb798ead7d67e591e4d1d80898177dcf                                                                   [20208] 
   .git/objects/78/d9a67091a8aa1902a81d332a306bd5296310b0                                                                   [669]   
+  .git/objects/79/08fb34fc48014a8254ecd0c85c9f85c0135d90                                                                   [115]   
   .git/objects/79/cfd939128876ffccd84f3855d75b04a5c284dd                                                                   [10440] 
   .git/objects/7b/af75e3c71c0cd4d73ac178055920a9405663a8                                                                   [2418]  
   .git/objects/7c/245c567c747733412ed07d36a6c568b921d7a7                                                                   [6611]  
@@ -518,6 +558,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/84/205fb07eb05892ab5c31d089e44f135c481202                                                                   [8483]  
   .git/objects/84/7ed796b661ee0c3112ce948406003a85189b3d                                                                   [2411]  
   .git/objects/85/37223277a1cc2722267db44b366869343d2ba7                                                                   [2426]  
+  .git/objects/85/4ae4dae809ad6f912697cf56b0aad646edca78                                                                   [315]   
   .git/objects/85/7f2607a6f02dfa352b5d55aa36c45e5932bc13                                                                   [21358] 
   .git/objects/85/a1418920ff7dc697f5a3aeb98973f3f94b3643                                                                   [25325] 
   .git/objects/86/10b1a90bc20fcf2b728757107f82e48eaa1b2a                                                                   [2419]  
@@ -547,16 +588,20 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/8d/35cdef81e5891286416701a0265780947d3bf4                                                                   [45354] 
   .git/objects/8d/3a650054c57474af53bf95aa1a2447e4ae30b3                                                                   [1054]  
   .git/objects/8d/bc75e2284cd2e736da41c563957c480c34fb55                                                                   [6693]  
+  .git/objects/8e/013a8518e52e795751a66c0662576fe368fbcb                                                                   [6870]  
   .git/objects/8e/306f696918231aa506251e8b7502ca59fbf1fb                                                                   [2419]  
+  .git/objects/8e/6c74dada018b45941a474f6dc99f9a69fb935a                                                                   [12907] 
   .git/objects/8f/13cd9bdf87c78940f6026252727b78a0f288f6                                                                   [71323] 
   .git/objects/8f/63c4a1535b9bcdce6b1ee30fba995c88473bd0                                                                   [40855] 
   .git/objects/8f/748840d2e301bb6de3b6ee04776fd18f25caf7                                                                   [2418]  
   .git/objects/8f/b97a38ba8b0b3b40f220b2900d5f8cdd3f7c14                                                                   [2415]  
   .git/objects/90/d4c11d58875e3135160ce555ec5d80a7869a1e                                                                   [6044]  
+  .git/objects/90/f949cb1f1108ad3cad8aad469b95df2847d132                                                                   [7722]  
   .git/objects/91/76b0ec1aa436a2427c5383a1dd1c0324b7dbfb                                                                   [33429] 
   .git/objects/92/97a5fc550db27a45cce2df090d3ceb39648180                                                                   [49]    
   .git/objects/92/98e5cc7b3440cffd6f171c1f50de116d6ec74f                                                                   [22070] 
   .git/objects/92/cadd96b1bca8e71902be7d7eb9cdff91d9dc00                                                                   [47496] 
+  .git/objects/92/d290c91d20c330b6caab452109a1b3019c1578                                                                   [1162787]
   .git/objects/93/12394be150162c973fd7484e101f4e5d824f3b                                                                   [2410]  
   .git/objects/93/9b1aed4746f630560907ee28068ee01b378004                                                                   [2413]  
   .git/objects/93/ec47d645c61853aee604cb6e31901179a6c354                                                                   [7719]  
@@ -580,6 +625,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/9d/6eb5bc9909145ecd13dc2cdb71c189cb51fdb3                                                                   [7713]  
   .git/objects/9d/7f7e8d792378537f5953f958c3bd8c044eef2e                                                                   [2414]  
   .git/objects/9d/edbbff8a9a5e2fd6c8bcf59f21b5417d952fa1                                                                   [58]    
+  .git/objects/9e/524b8f4d144b26dd23e3cb3a3c5bea8aecd75e                                                                   [796]   
   .git/objects/9e/92cb039688562334f07a2d03289d3dab96e4f6                                                                   [21340] 
   .git/objects/9f/4a533e1235ccc79ff5c790074aef00d64b2ad7                                                                   [50]    
   .git/objects/9f/ac9850dd4e691b596473924032dd9bbfe2110f                                                                   [2411]  
@@ -606,6 +652,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/a6/0c9d0811bc0e7a46a4794b89e4711f5b450c83                                                                   [2420]  
   .git/objects/a6/6794e4bef05899834586021699d3fc41c980e7                                                                   [53]    
   .git/objects/a6/7f88bf8f994eca143848c9e288004d7e192c26                                                                   [2420]  
+  .git/objects/a6/d05172a22bebbd7885ff86240da6ba29ebdabf                                                                   [58]    
   .git/objects/a6/f7cc6eb6545d96ad328249ea415c18f97eef7b                                                                   [56093] 
   .git/objects/a7/719f2cded8146664b2aeb42b2b14c6716cfa22                                                                   [22714] 
   .git/objects/a7/9e56b12095027e4250af0822d52dfda8038373                                                                   [4544]  
@@ -628,16 +675,20 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/ad/5b4a56b706b0f0b61d6b4e28f6e1052d311163                                                                   [7478]  
   .git/objects/ad/86451f74a708f0cc6dde03b1d738064077e098                                                                   [2419]  
   .git/objects/ad/b8801d8950ed73b97e8c86623f15b625d891b4                                                                   [6432]  
+  .git/objects/ae/ecb70b38ae3ee7cd29761a46ff6dceb00d0eb1                                                                   [129788]
   .git/objects/af/1990786f2a3c8cddf2a2cf7aef8535343274f9                                                                   [2422]  
   .git/objects/af/72954555f99b574e071e978081e6baba5090ea                                                                   [12907] 
   .git/objects/af/7ae524a9a9ae5b76a396a872c6ca5d29b26710                                                                   [13716] 
   .git/objects/af/8b0e4e36b24f427cbf7657af428346db2295af                                                                   [28511] 
   .git/objects/af/cc9cce0a30d2e58c4291d31997bd5a46d8bb04                                                                   [90]    
+  .git/objects/af/d839c315a13d058a7ffeeeb7f773dd98414da1                                                                   [44360] 
   .git/objects/b0/57e331a78eb3a11e8a0c5bf3ecebbc3344e23c                                                                   [6694]  
   .git/objects/b0/de6e2bfa3137c0327e50d5b2871aa33ca036f8                                                                   [2417]  
+  .git/objects/b0/e8026d0afbfffa919d6ff11900e947991266ae                                                                   [309]   
   .git/objects/b1/4c16749d4e410dac16340e13002c82d8e813d1                                                                   [18666] 
   .git/objects/b1/bc575f9bc66094aa8fc4b65726394edf9fc51b                                                                   [2418]  
   .git/objects/b1/e26ac87bb8d4ad3e60dd06772af488063a78b4                                                                   [122260]
+  .git/objects/b2/9b3ee3d0de5374f09e461411b1f1aeea34132c                                                                   [12850] 
   .git/objects/b2/da6e677fffd18dbce382a5c2ca6772c0bf7780                                                                   [2412]  
   .git/objects/b3/2758a4e0607534c5b40f6493bb6d7954860beb                                                                   [2410]  
   .git/objects/b3/dae11a7ea8c1020370bd29c56f2c73a7dc0406                                                                   [11098] 
@@ -651,6 +702,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/b8/7944111839b7ba077cb6f688b1184950baf833                                                                   [11278] 
   .git/objects/b9/01669a8ff057a7fb8fec78336e8978c87f3680                                                                   [11680] 
   .git/objects/ba/3f42b7a8fe6fd85bf57f21a0a73d84be4364ae                                                                   [2422]  
+  .git/objects/ba/6612d43cd7dee1debad0b380e6b8b99992a542                                                                   [16298352]
   .git/objects/ba/7fba559d4e94cff98bf535272ac4d3fa3cbd12                                                                   [12795] 
   .git/objects/ba/e24df3d9854e022dd92cd76c595fd2bb0bbc8b                                                                   [6744]  
   .git/objects/ba/f9b30c83117d58f467b50b0d8f6055b391860a                                                                   [5604]  
@@ -680,6 +732,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/c3/768657d449e373cecdfae8adb624de752f1edf                                                                   [140854]
   .git/objects/c5/717d8cd2130fa9c2db1af14763b3f85722d9ab                                                                   [6225]  
   .git/objects/c5/c25dc92f52b02ccdb759e3cdbf3c03669a3904                                                                   [140443]
+  .git/objects/c5/ca32b0db7b91d52aa44120e792be8425410cd9                                                                   [23217] 
   .git/objects/c6/54977d594d1670bf3e5b945b86b3fe61cc7fa7                                                                   [132387]
   .git/objects/c7/09956f6f64d5eeb12e6957e264f5d21328a5dd                                                                   [2420]  
   .git/objects/c7/84fe1fcb2beb2c4f49cc8abf1eadd43600baa1                                                                   [20799] 
@@ -688,6 +741,8 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/c7/dccc6e582475ce9b04c2f32172cc160eaebfaf                                                                   [32257] 
   .git/objects/c7/f550ab90b86c1709b672f8bc1663f8eb77112d                                                                   [2417]  
   .git/objects/c8/0b5ec1fb17d4ec43354fd65666a298d935fffb                                                                   [129]   
+  .git/objects/c8/11d04cdb7d8432645ae8f36a1d67bd3c38ea6b                                                                   [1192786]
+  .git/objects/c8/1790ade81a515e06fcdd7aa727a07d12486a3a                                                                   [471]   
   .git/objects/c8/758c61a2e77266ea5a1236734419bfcdd743b8                                                                   [2425]  
   .git/objects/c8/9899470450cb627c6d40998c0505887acf6cc4                                                                   [2413]  
   .git/objects/c9/2c4086ce3c461b563ca0e5379c56306ff7294e                                                                   [2421]  
@@ -713,6 +768,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/cc/7fcc9bfdb474aa6eb73bd7b21e92cae8eca01f                                                                   [2419]  
   .git/objects/cd/e82148ab7f30e2ca5dc527adb4c9aa8f8a0db4                                                                   [2409]  
   .git/objects/ce/0ef8d7ffbbb75888efd7d14043ba72a0ba2ff1                                                                   [47642] 
+  .git/objects/ce/e7b39fbd21c3862d4f32457e2b2622633c45a9                                                                   [1503]  
   .git/objects/cf/661a285bc4d465191826b73f167d73b825a004                                                                   [13760] 
   .git/objects/d0/299ced7d652df6ccf42b84d830557aff2dd28a                                                                   [2415]  
   .git/objects/d0/6a10cc905124d500cb36d7c4f861e3a73d5e53                                                                   [47847] 
@@ -722,6 +778,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/d1/56d47c29ce980548c0a175ca0ce2afb12ddb99                                                                   [5505]  
   .git/objects/d1/a9cf94667701f5a23864e88188c1da42e17497                                                                   [2420]  
   .git/objects/d1/af60d707023364173a901ee00c8bed26abc55b                                                                   [59901] 
+  .git/objects/d1/da837518668bb29a7d9cc3d1f0acca4d1025e9                                                                   [4551]  
   .git/objects/d2/4d9af5f86288346029ccbb3aafb8a7be610816                                                                   [372]   
   .git/objects/d2/7262eda485244d50917c563001a25a1dcfaba2                                                                   [2414]  
   .git/objects/d2/bf14f437fab0d1a33ff4bd351d8e69bda4c4bb                                                                   [2419]  
@@ -732,15 +789,18 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/d4/447bcb55a690cffab92f26eccac23d473cb5bd                                                                   [9627]  
   .git/objects/d5/d9bc1507c72f0dcdc06c0640f5961928156801                                                                   [2422]  
   .git/objects/d5/e90980c7297842a644c0f06512d254038dc514                                                                   [2421]  
+  .git/objects/d6/7a86f7ed6e79b18fe95162fb51f0b9067d2ec4                                                                   [258048]
   .git/objects/d6/8dce5fa956ee1e54b9adf1c9b11ae3ff623d0f                                                                   [2411]  
   .git/objects/d6/c19b8bde763abbdd6e64617cf940d0e8523516                                                                   [320]   
   .git/objects/d6/d42064f9d2114bf5f56590c426fe4d5b280cc2                                                                   [2401]  
   .git/objects/d7/3e9fbe980871a9ece793b8dad3f52b1d5d07d3                                                                   [2407]  
+  .git/objects/d7/c934238954949a4663daf55e42216488d4effd                                                                   [202]   
   .git/objects/d8/2eae299d3c39f0eb466d0c869f81534e0718ea                                                                   [25203] 
   .git/objects/d8/4dbeeba79780151fc6be8506308c59469f8a6b                                                                   [7711]  
   .git/objects/d8/fc649490c7220534d97fa480945cad9e902404                                                                   [71795] 
   .git/objects/d9/360b717552e1b3c85a9297ab70dcf8be3a36e9                                                                   [191]   
   .git/objects/da/05c010f2db97b5ff6b0e9f19d62630c973ff2e                                                                   [59452] 
+  .git/objects/da/2d2a32220146d20190bc541dc74ad64c99d45f                                                                   [4561]  
   .git/objects/da/4849b112dabd39fa03f2f133588441e3c55110                                                                   [1211670]
   .git/objects/da/5212f1b0536b7ec3b1aece042965b4d747861c                                                                   [2410]  
   .git/objects/da/5624cd5e91ba502cc668ab1d5ca46e627e0205                                                                   [3271]  
@@ -749,6 +809,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/db/5c5cbbcb7e37ab0e882732a7581422a4cf91f7                                                                   [90]    
   .git/objects/db/9226833f7926df00254bd66040790e3034753e                                                                   [9614]  
   .git/objects/db/bece3dfecf65b55796b76f08772581612d0f41                                                                   [78915] 
+  .git/objects/dc/98399e2b1c79c8a0940d48df48921cee59d025                                                                   [2697]  
   .git/objects/dc/d4ec3142ceee5699937a9a176bafc2389da8c5                                                                   [24651] 
   .git/objects/dc/dd94eb0e1a3a6ca15450af6b20cad8139aecca                                                                   [21735] 
   .git/objects/dd/2f6b2bea6703ca20844039e5686e34b7e22627                                                                   [1182492]
@@ -769,6 +830,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/e0/4c9a5d5d52ccc32f19703884d778cb00824f0d                                                                   [14205] 
   .git/objects/e0/6275141783d960716256bd4e81dd7ac0cd4765                                                                   [20405] 
   .git/objects/e0/84efaaa2ba8621599389d167da1aeb3c59bd9e                                                                   [2419]  
+  .git/objects/e0/fd5b224ed6b753d4712137b3344e3de092c12e                                                                   [553]   
   .git/objects/e1/01e78485974cfa2db68cc30db61019ac12eb78                                                                   [6610]  
   .git/objects/e1/26d2dfb2ed501805baae36a03137d7bce5aff5                                                                   [53]    
   .git/objects/e1/2c26baf3435a65546ac3dd7b896bcc330c706e                                                                   [2408]  
@@ -819,6 +881,7 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/f5/8f45a1723a139ed1362e7fc4581a85279c445c                                                                   [804]   
   .git/objects/f5/d28bfc77906c45cbb18da5550fadc780f9962c                                                                   [9935]  
   .git/objects/f5/ee86c90981aca9a3a22ccbe32cc047dc9ffe89                                                                   [120]   
+  .git/objects/f6/804defb499a336d6a7337eada554d9ccef875d                                                                   [90]    
   .git/objects/f6/ac54989a263684abd9fd4a434e8e946f0893ce                                                                   [16748] 
   .git/objects/f7/9203c1867875ea2a7019c3a5c7ac8770463aab                                                                   [13264] 
   .git/objects/f7/9c4404ea7941f748edbaeda08d4a2cd5e4fc7c                                                                   [11419] 
@@ -835,11 +898,16 @@ File listing for /Users/t32k/Github/Nyars
   .git/objects/fb/815a8c0c6db1f11544ca3afa80d615eb37adb6                                                                   [7714]  
   .git/objects/fb/f489751f3a96f103e93018e4703e97618f1416                                                                   [308]   
   .git/objects/fc/227f078627bc00796f4b96eb7acb777078d597                                                                   [2419]  
+  .git/objects/fc/4fc17ea36217f12685b4193ed1dfd63d682cfc                                                                   [26476] 
+  .git/objects/fc/fe14eef5e2ff5f04ad6d275179d45df6869160                                                                   [79]    
   .git/objects/fd/83d3b0dc90a52bb8c8cb221d49b10bbc7ee36f                                                                   [129]   
   .git/objects/fd/8827d4219576a94354ed3a3510ae153dd6137c                                                                   [2421]  
+  .git/objects/fd/9c0f30256309caacd1e9ff5d611f46c3017555                                                                   [202]   
+  .git/objects/fe/38472f03b15cb9e9c97455791aaa2963e6595f                                                                   [250238]
   .git/objects/fe/b28297e03ef960b3715115f4379e844420b4c8                                                                   [2406]  
   .git/objects/ff/18aeac0780612aba102c641c31621c080ff88c                                                                   [31065] 
   .git/objects/ff/41a3db69c37b99bafeace5a1926354952674d4                                                                   [888]   
+  .git/objects/ff/51825e759a33bac7ccab794a2c48e7eddeffc2                                                                   [53]    
   .git/objects/ff/75ed5d47b4e2d50de8ed31f5c78e08065b03c0                                                                   [20371] 
   .git/objects/ff/e98ffa30f77ca942cd9245db8644ccb5ab22e4                                                                   [2414]  
   .git/objects/pack/pack-e2ef07376d48d89225b1fc84dc6db53aec77dc6d.idx                                                      [33888] 
@@ -854,7 +922,7 @@ File listing for /Users/t32k/Github/Nyars
   build/iphone/module.xcconfig                                                                                             [43]    
   build/iphone/Nyars_Prefix.pch                                                                                            [340]   
   build/iphone/project.xcconfig                                                                                            [276]   
-  build/iphone/build/build.log                                                                                             [99309] 
+  build/iphone/build/build.log                                                                                             [108293]
   build/iphone/Classes/AccelerometerModule.h                                                                               [459]   
   build/iphone/Classes/AccelerometerModule.m                                                                               [1265]  
   build/iphone/Classes/AnalyticsModule.h                                                                                   [543]   
@@ -1417,9 +1485,9 @@ File listing for /Users/t32k/Github/Nyars
   build/iphone/Resources/Entitlements.plist                                                                                [227]   
   build/iphone/Resources/stylesheet.plist                                                                                  [104]   
   Resources/.DS_Store                                                                                                      [6148]  
-  Resources/app.js                                                                                                         [1491]  
+  Resources/app.js                                                                                                         [1460]  
   Resources/appicon.png                                                                                                    [6333]  
-  Resources/camera.js                                                                                                      [3420]  
+  Resources/camera.js                                                                                                      [3482]  
   Resources/images/.DS_Store                                                                                               [6148]  
   Resources/images/bg.png                                                                                                  [250140]
   Resources/images/bg_off.png                                                                                              [2560]  
@@ -1434,7 +1502,7 @@ File listing for /Users/t32k/Github/Nyars
   Resources/iPhone/Default.png                                                                                             [257950]
   Resources/iPhone/Default@2x.png                                                                                          [1162413]
 ----------------------------------------------------------------------------------------------------------------------------------
-Total files: 298.0 MB
+Total files: 328.0 MB
 
 Contents of Info.plist
 
@@ -1480,7 +1548,7 @@ Contents of Info.plist
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1301238947</string>
+	<string>1.0.1301278175</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
         <key>UIPrerenderedIcon</key>
@@ -1929,15 +1997,14 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] detected symbol: UI.createWindow
 [DEBUG] detected symbol: UI.createImageView
 [DEBUG] detected symbol: UI.createButton
-[DEBUG] detected symbol: UI.createAnimation
-[DEBUG] detected symbol: UI.ANIMATION_CURVE_EASE_IN_OUT
-[DEBUG] detected symbol: UI.createButton
-[DEBUG] detected symbol: UI.iPhone.SystemButton.FLEXIBLE_SPACE
 [DEBUG] detected symbol: UI.createOptionDialog
 [DEBUG] detected symbol: UI.createWindow
+[DEBUG] detected symbol: UI.createAnimation
+[DEBUG] detected symbol: UI.ANIMATION_CURVE_EASE_IN_OUT
 [DEBUG] detected symbol: App.earsColor
 [DEBUG] detected symbol: App.earsColor
 [DEBUG] compiling: /Users/t32k/Github/Nyars/Resources/camera.js
+[DEBUG] detected symbol: UI.setBackgroundColor
 [DEBUG] detected symbol: UI.currentWindow
 [DEBUG] detected symbol: UI.createButton
 [DEBUG] detected symbol: UI.iPhone.SystemButton.CAMERA
@@ -1970,7 +2037,6 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] detected symbol: Media.MEDIA_TYPE_PHOTO
 [DEBUG] detected symbol: UI.createWindow
 [DEBUG] detected symbol: UI.createEmailDialog
-[DEBUG] detected symbol: UI.setBackgroundColor
 [DEBUG] detected symbol: UI.iPhone.hideStatusBar
 [DEBUG] module image = /Library/Application Support/Titanium/mobilesdk/osx/1.6.1/iphone/modules/ui/images
 [DEBUG] copy resources from /Library/Application Support/Titanium/mobilesdk/osx/1.6.1/iphone/modules/ui/images to /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/modules/ui/images
@@ -2008,8 +2074,8 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/512appicon-pngcrush.png
 [DEBUG] (17.96% IDAT increase)
 [DEBUG] (17.96% filesize increase)
-[DEBUG] CPU time used = 0.344 seconds (decoding 0.031,
-[DEBUG] encoding 0.276, other 0.037 seconds)
+[DEBUG] CPU time used = 0.339 seconds (decoding 0.030,
+[DEBUG] encoding 0.273, other 0.036 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/512appicon.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -2033,7 +2099,7 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] (11.20% IDAT increase)
 [DEBUG] (11.29% filesize increase)
 [DEBUG] CPU time used = 0.010 seconds (decoding 0.001,
-[DEBUG] encoding 0.003, other 0.007 seconds)
+[DEBUG] encoding 0.002, other 0.007 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -2056,7 +2122,7 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon@2x-pngcrush.png
 [DEBUG] (15.66% IDAT increase)
 [DEBUG] (15.66% filesize increase)
-[DEBUG] CPU time used = 0.025 seconds (decoding 0.002,
+[DEBUG] CPU time used = 0.024 seconds (decoding 0.002,
 [DEBUG] encoding 0.014, other 0.009 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/appicon@2x.png
 [DEBUG] | pngcrush 1.6.4
@@ -2081,8 +2147,8 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default-pngcrush.png
 [DEBUG] (14.31% IDAT increase)
 [DEBUG] (14.31% filesize increase)
-[DEBUG] CPU time used = 0.322 seconds (decoding 0.020,
-[DEBUG] encoding 0.277, other 0.025 seconds)
+[DEBUG] CPU time used = 0.315 seconds (decoding 0.019,
+[DEBUG] encoding 0.271, other 0.025 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -2106,8 +2172,8 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default@2x-pngcrush.png
 [DEBUG] (9.69% IDAT increase)
 [DEBUG] (9.70% filesize increase)
-[DEBUG] CPU time used = 1.002 seconds (decoding 0.076,
-[DEBUG] encoding 0.850, other 0.077 seconds)
+[DEBUG] CPU time used = 0.953 seconds (decoding 0.066,
+[DEBUG] encoding 0.812, other 0.075 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/Default@2x.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -2131,8 +2197,8 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/bg-pngcrush.png
 [DEBUG] (12.96% IDAT increase)
 [DEBUG] (12.96% filesize increase)
-[DEBUG] CPU time used = 0.356 seconds (decoding 0.020,
-[DEBUG] encoding 0.312, other 0.024 seconds)
+[DEBUG] CPU time used = 0.349 seconds (decoding 0.019,
+[DEBUG] encoding 0.307, other 0.024 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/bg.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -2156,8 +2222,8 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/bg_off-pngcrush.png
 [DEBUG] (4.06% IDAT increase)
 [DEBUG] (4.53% filesize increase)
-[DEBUG] CPU time used = 0.012 seconds (decoding 0.001,
-[DEBUG] encoding 0.008, other 0.003 seconds)
+[DEBUG] CPU time used = 0.011 seconds (decoding 0.001,
+[DEBUG] encoding 0.008, other 0.002 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/images/bg_off.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -2277,8 +2343,8 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/512appicon-pngcrush.png
 [DEBUG] (17.96% IDAT increase)
 [DEBUG] (17.96% filesize increase)
-[DEBUG] CPU time used = 0.344 seconds (decoding 0.031,
-[DEBUG] encoding 0.276, other 0.037 seconds)
+[DEBUG] CPU time used = 0.347 seconds (decoding 0.032,
+[DEBUG] encoding 0.279, other 0.036 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/512appicon.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -2325,8 +2391,8 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/appicon@2x-pngcrush.png
 [DEBUG] (15.66% IDAT increase)
 [DEBUG] (15.66% filesize increase)
-[DEBUG] CPU time used = 0.024 seconds (decoding 0.002,
-[DEBUG] encoding 0.014, other 0.008 seconds)
+[DEBUG] CPU time used = 0.025 seconds (decoding 0.002,
+[DEBUG] encoding 0.014, other 0.009 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/appicon@2x.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -2350,8 +2416,8 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default-pngcrush.png
 [DEBUG] (14.31% IDAT increase)
 [DEBUG] (14.31% filesize increase)
-[DEBUG] CPU time used = 0.315 seconds (decoding 0.019,
-[DEBUG] encoding 0.271, other 0.025 seconds)
+[DEBUG] CPU time used = 0.320 seconds (decoding 0.020,
+[DEBUG] encoding 0.275, other 0.025 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -2375,8 +2441,8 @@ PhaseScriptExecution Pre-Compile build/Nyars.build/Release-iphoneos/Nyars.build/
 [DEBUG] Best pngcrush method = 120 (fm 0 zl 9 zs 1) for /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default@2x-pngcrush.png
 [DEBUG] (9.69% IDAT increase)
 [DEBUG] (9.70% filesize increase)
-[DEBUG] CPU time used = 0.955 seconds (decoding 0.066,
-[DEBUG] encoding 0.814, other 0.075 seconds)
+[DEBUG] CPU time used = 0.959 seconds (decoding 0.067,
+[DEBUG] encoding 0.817, other 0.075 seconds)
 [DEBUG] iphoneos-optimize: Optimized PNG: /Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/Nyars.app/iPhone/Default@2x.png
 [DEBUG] | pngcrush 1.6.4
 [DEBUG] |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
@@ -3586,17 +3652,17 @@ CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiU
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiUIiPadSplitWindowProxy.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUIiPadSplitWindowProxy.o
 
-CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUIiPadPopoverProxy.o Classes/TiUIiPadPopoverProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-    cd /Users/t32k/Github/Nyars/build/iphone
-    setenv LANG en_US.US-ASCII
-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiUIiPadPopoverProxy.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUIiPadPopoverProxy.o
-
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUIiPadPopover.o Classes/TiUIiPadPopover.m normal armv6 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
     setenv LANG en_US.US-ASCII
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiUIiPadPopover.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUIiPadPopover.o
+
+CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUIiPadPopoverProxy.o Classes/TiUIiPadPopoverProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+    cd /Users/t32k/Github/Nyars/build/iphone
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiUIiPadPopoverProxy.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUIiPadPopoverProxy.o
 
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiUIiPadProxy.o Classes/TiUIiPadProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
@@ -3910,17 +3976,17 @@ CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiA
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiAppiOSBackgroundServiceProxy.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiAppiOSBackgroundServiceProxy.o
 
-CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/NSObject+SBJSON.o Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-    cd /Users/t32k/Github/Nyars/build/iphone
-    setenv LANG en_US.US-ASCII
-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/JSON/NSObject+SBJSON.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/NSObject+SBJSON.o
-
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiAppiOSLocalNotificationProxy.o Classes/TiAppiOSLocalNotificationProxy.m normal armv6 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
     setenv LANG en_US.US-ASCII
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/TiAppiOSLocalNotificationProxy.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/TiAppiOSLocalNotificationProxy.o
+
+CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/NSObject+SBJSON.o Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+    cd /Users/t32k/Github/Nyars/build/iphone
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv6 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-fpgcufybqohikwevxjutvpghlxli/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/JSON/NSObject+SBJSON.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/NSObject+SBJSON.o
 
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv6/NSString+SBJSON.o Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
@@ -4038,6 +4104,12 @@ CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/Bas
     setenv LANG en_US.US-ASCII
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-eqnrotapjofzpfeysjwxctacihoj/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/Base64Transcoder.c -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/Base64Transcoder.o
+
+ProcessPCH++ /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-cvgdbltgkbtunwgnxqixycdbiggv/Nyars_Prefix.pch.gch Nyars_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+    cd /Users/t32k/Github/Nyars/build/iphone
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -c /Users/t32k/Github/Nyars/build/iphone/Nyars_Prefix.pch -o /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-cvgdbltgkbtunwgnxqixycdbiggv/Nyars_Prefix.pch.gch
 
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/TiUITableViewAction.o Classes/TiUITableViewAction.m normal armv7 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
@@ -4195,23 +4267,17 @@ CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/SBJ
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-dctnlrvbjpwfovckmkhpmyxitaoh/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/SBJSON.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/SBJSON-D3E5F9E305C04645.o
 
-ProcessPCH++ /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-cvgdbltgkbtunwgnxqixycdbiggv/Nyars_Prefix.pch.gch Nyars_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/KrollBridge.o Classes/KrollBridge.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
     setenv LANG en_US.US-ASCII
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -c /Users/t32k/Github/Nyars/build/iphone/Nyars_Prefix.pch -o /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-cvgdbltgkbtunwgnxqixycdbiggv/Nyars_Prefix.pch.gch
+    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-cvgdbltgkbtunwgnxqixycdbiggv/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/KrollBridge.mm -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/KrollBridge.o
 
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/KrollCallback.o Classes/KrollCallback.m normal armv7 objective-c com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone
     setenv LANG en_US.US-ASCII
     setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-dctnlrvbjpwfovckmkhpmyxitaoh/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/KrollCallback.m -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/KrollCallback.o
-
-CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/KrollBridge.o Classes/KrollBridge.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
-    cd /Users/t32k/Github/Nyars/build/iphone
-    setenv LANG en_US.US-ASCII
-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DDEPLOYTYPE=test -DTI_TEST=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mthumb -miphoneos-version-min=3.1 -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-generated-files.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-own-target-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-all-target-headers.hmap -iquote /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Nyars-project-headers.hmap -I/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -Iheaders -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources/armv7 -I/Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/DerivedSources -F/Users/t32k/Github/Nyars/build/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/K5/K5K2obAiGAa8AvTBlH8yrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Nyars_Prefix-cvgdbltgkbtunwgnxqixycdbiggv/Nyars_Prefix.pch -c /Users/t32k/Github/Nyars/build/iphone/Classes/KrollBridge.mm -o /Users/t32k/Github/Nyars/build/iphone/build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/KrollBridge.o
 
 CompileC build/Nyars.build/Release-iphoneos/Nyars.build/Objects-normal/armv7/KrollContext.o Classes/KrollContext.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
     cd /Users/t32k/Github/Nyars/build/iphone

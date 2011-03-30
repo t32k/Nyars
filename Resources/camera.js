@@ -1,4 +1,7 @@
+Ti.UI.setBackgroundColor('#111');
+
 var win = Ti.UI.currentWindow;
+
 var btCamera = Ti.UI.createButton({
   systemButton: Ti.UI.iPhone.SystemButton.CAMERA
 });
@@ -20,39 +23,34 @@ var selectMedia = Ti.UI.createOptionDialog({
   cancel: 2,
   title: 'Send Your Nekomimi!'
 });
-
 var msgWin = Ti.UI.createWindow({
-	height:40,
-	width:250,
-	bottom:220,
-	borderRadius:10,
-	touchEnabled:false,
-	orientationModes : [
-	Ti.UI.PORTRAIT,
-	Ti.UI.UPSIDE_PORTRAIT,
-	Ti.UI.LANDSCAPE_LEFT,
-	Ti.UI.LANDSCAPE_RIGHT
-	]
+  width: 250,
+  height: 40,
+  bottom: 220,
+  borderRadius: 5,
+  touchEnabled: false,
+  orientationModes: [
+  Ti.UI.PORTRAIT, Ti.UI.UPSIDE_PORTRAIT, Ti.UI.LANDSCAPE_LEFT, Ti.UI.LANDSCAPE_RIGHT]
 });
 var msgView = Ti.UI.createView({
-	height:40,
-	width:120,
-	borderRadius:10,
-	backgroundColor:'#000',
-	opacity:0.65,
-	touchEnabled:false
+  width: 120,
+  height: 40,
+  borderRadius: 5,
+  backgroundColor: '#000',
+  opacity: 0.6,
+  touchEnabled: false
 });
 var msgLabel = Ti.UI.createLabel({
-	text:'Saved!',
-	color:'#fff',
-	width:250,
-	height:'auto',
-	font:{
-		fontFamily:'Helvetica Neue',
-		fontSize:14,
-		fontWeight:　'bold'
-	},
-	textAlign:'center'
+  text: 'Saved!',
+  color: ' #fff',
+  width: 250,
+  height: 'auto',
+  font: {
+    fontFamily: 'Helvetica Neue',
+    fontSize: 13,
+    fontWeight: 　'bold'
+  },
+  textAlign: 'center'
 });
 msgView.add(msgLabel);
 msgWin.add(msgView);
@@ -91,10 +89,13 @@ Ti.Media.showCamera({
     win.add(cameraView);
     win.add(toolbar);
     Ti.Media.hideCamera();
-		msgWin.open();
-		setTimeout(function(){
-			msgWin.close({opacity:0,duration:750});
-		},2000);
+    msgWin.open();
+    setTimeout(function () {
+      msgWin.close({
+        opacity: 0,
+        duration: 750
+      });
+    }, 2000);
   },
   cancel: function () {
     win.close();
@@ -135,7 +136,6 @@ btAction.addEventListener('click', function () {
 selectMedia.addEventListener('click', function (e) {
   switch (e.index) {
   case 0:
-    // Email　
     var mailDialog = Ti.UI.createEmailDialog();
     mailDialog.setMessageBody('Meow! Meow!');
     mailDialog.addAttachment(blobImage);
@@ -144,5 +144,4 @@ selectMedia.addEventListener('click', function (e) {
     break;
   }
 });
-Ti.UI.setBackgroundColor('#111');
 Ti.UI.iPhone.hideStatusBar();
