@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-<id>com.t32k.nyars</id>
+<id>me.t32k.nyars</id>
 <name>Nyars</name>
-<version>1.0</version>
+<version>1.2</version>
 <publisher>t32k</publisher>
 <url>http://twitter.com/t32k</url>
 <description>Take a picture with Nekomimi.</description>
 <copyright>2011 by t32k</copyright>
 <icon>appicon.png</icon>
-    <persistent-wifi>false</persistent-wifi>
-    <prerendered-icon>true</prerendered-icon>
-    <statusbar-style>default</statusbar-style>
-    <statusbar-hidden>false</statusbar-hidden>
-    <fullscreen>false</fullscreen>
-    <navbar-hidden>false</navbar-hidden>
-    <analytics>true</analytics>
-<guid>c5070fc6-86d1-4bb3-a394-b5c6b9dfb171</guid>
-	<iphone>
-		<orientations device="iphone">
-			<orientation>Ti.UI.PORTRAIT</orientation>
-		</orientations>
-		<orientations device="ipad">
-			<orientation>Ti.UI.PORTRAIT</orientation>
-			<orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
-			<orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
-			<orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
-		</orientations>
-	</iphone>
-	<android xmlns:android="http://schemas.android.com/apk/res/android">
-	</android>
-	<modules>
-	</modules>
+<persistent-wifi>false</persistent-wifi>
+<prerendered-icon>true</prerendered-icon>
+<statusbar-style>translucent_black</statusbar-style>
+<statusbar-hidden>false</statusbar-hidden>
+<fullscreen>false</fullscreen>
+<navbar-hidden>true</navbar-hidden>
+<analytics>true</analytics>
+<iphone>
+　<requires>
+　　<feature>still-camera</feature>
+　</requires>
+</iphone>
+<guid>4f1fd96588c44bd1967946aa009d3692</guid>
 </ti:app>

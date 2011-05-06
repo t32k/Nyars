@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="exe">ネコミミを選ぶ</string>
+  <string name="black">黒ネコ</string>
+  <string name="white">白ネコ</string>
+  <string name="cancel">キャンセル</string>
+  <string name="color">ネコミミをの色を選んでね</string>
+  <string name="mail">Eメール</string>
+  <string name="send">ネコミミを送ろう！</string>
+  <string name="camera_error">カメラが見当たりません</string>
+  <string name="voice">ニャー！ニャー！</string>
+</resources>

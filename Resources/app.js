@@ -1,19 +1,40 @@
-Ti.UI.iPhone.setStatusBarStyle(Ti.UI.iPhone.StatusBar.OPAQUE_BLACK);
+// Google Analytics Tracking Code
+Ti.include('analytics.js');
+var analytics = new Analytics('UA-2317436-27');
+Ti.App.addEventListener('analytics_trackPageview', function(e){
+    var path = "/app/" + Ti.Platform.name;
+    analytics.trackPageview(path + e.pageUrl);
+});
+Ti.App.addEventListener('analytics_trackEvent', function(e){
+    analytics.trackEvent(e.category, e.action, e.label, e.value);
+});
+Ti.App.Analytics = {
+    trackPageview:function(pageUrl){
+        Ti.App.fireEvent('analytics_trackPageview', {pageUrl:pageUrl});
+    },
+    trackEvent:function(category, action, label, value){
+        Ti.App.fireEvent('analytics_trackEvent', {category:category, action:action, label:label, value:value});
+    }
+};
+analytics.start(1);
+
+Ti.App.Analytics.trackPageview('/startup');
 Ti.UI.setBackgroundColor('#111');
 
 var win = Ti.UI.createWindow({
   title: 'Home',
-  backgroundImage: 'images/bg.png'
+  backgroundImage: 'images/bg.jpg'
 });
 var logo = Ti.UI.createImageView({
-  image: 'images/logo.png',
+  image: 'images/icon.png',
   width: 207,
   height: 183,
   top: 93,
-  left: 60
+  left: 60,
+	hires: true
 });
 var button = Ti.UI.createButton({
-  title: 'Choose Nekomimi',
+  title:  L('exe'),
   width: 180,
   height: 40,
   top: 320,
@@ -22,22 +43,22 @@ var button = Ti.UI.createButton({
   font: {
     fontFamily: 'Helvetica Neue',
     fontSize: 13,
-    fontWeight: 　'bold'
+    fontWeight: 'bold'
   },
   backgroundImage: 'images/bg_off.png',
   backgroundSelectedImage: 'images/bg_on.png',
   opacity: 0
 });
 var selectColor = Ti.UI.createOptionDialog({
-  options: ['Sexy Black', 'Cinderella White', 'Cancel'],
+  options: [ L('black'), L('white'), L('cancel')],
   cancel: 2,
-  title: 'Choose color of Nekomimi.'
+  title: L('color')
 });
 var cameraWindow = Ti.UI.createWindow({
   url: 'camera.js',
-  title: 'Meow! Meow!'
+  title: L('voice')
 });
-var startupAnimation = Titanium.UI.createAnimation({
+var startupAnimation = Ti.UI.createAnimation({
   curve: Ti.UI.ANIMATION_CURVE_EASE_IN_OUT,
   opacity: 1,
   duration: 750,
@@ -51,9 +72,11 @@ button.addEventListener('click', function () {
 });
 selectColor.addEventListener('click', function (e) {
   if (e.index === 0) {
+		Ti.App.Analytics.trackPageview('/startup/camera/black');
     Ti.App.earsColor = 'black';
     cameraWindow.open();
   } else if (e.index === 1) {
+		Ti.App.Analytics.trackPageview('/startup/camera/white');
     Ti.App.earsColor = 'white';
     cameraWindow.open();
   }

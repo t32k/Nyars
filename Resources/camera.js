@@ -1,5 +1,4 @@
 Ti.UI.setBackgroundColor('#111');
-
 var win = Ti.UI.currentWindow;
 
 var btCamera = Ti.UI.createButton({
@@ -18,10 +17,11 @@ var toolbar = Ti.UI.createToolbar({
   barColor: '#000',
   translucent: true
 });
+
 var selectMedia = Ti.UI.createOptionDialog({
-  options: ['Email', 'Cancel'],
+  options: [ L('mail'), L('cancel') ],
   cancel: 2,
-  title: 'Send Your Nekomimi!'
+  title: L('send')
 });
 var msgWin = Ti.UI.createWindow({
   width: 250,
@@ -60,16 +60,19 @@ var ears = Ti.UI.createImageView({
   image: 'images/ears_' + Ti.App.earsColor + '.png',
   width: 186,
   height: 85,
-  top: 45
+  top: 45,
+	hires: true
 });
-var overlay = Ti.UI.createView();
+var overlay = Ti.UI.createView({
+	// Enable camera control UI.
+	touchEnabled: false
+});
 overlay.add(ears);
 
-// offset:55
-var cameraZoom = Ti.UI.create2DMatrix().translate(0, 55);
 // Start camera function.
 Ti.Media.showCamera({
   success: function (event) {
+		Ti.App.Analytics.trackPageview('/startup/camera/' + Ti.App.earsColor + '/takePicture');
     var cameraView = Ti.UI.createImageView({
       width: 320,
       height: 480,
@@ -77,7 +80,17 @@ Ti.Media.showCamera({
       left: 0,
       image: event.media
     });
-    cameraView.add(overlay);
+		// To saved picture.
+		var saveEars = Ti.UI.createImageView({
+		  image: 'images/ears_' + Ti.App.earsColor + '.png',
+		  width: 186,
+		  height: 85,
+		  top: 45,
+			hires: true
+		});
+		var saveOverlay = Ti.UI.createView({});
+		saveOverlay.add(saveEars);
+    cameraView.add(saveOverlay);
     var imageNew = cameraView.toImage(function (e) {
       var filename1 = Ti.Filesystem.applicationDataDirectory + '/nyars.png';
       f = Ti.Filesystem.getFile(filename1);
@@ -105,28 +118,28 @@ Ti.Media.showCamera({
       title: '(´・ω・｀)'
     });
     if (error.code == Ti.Media.NO_CAMERA) {
-      a.setMessage('Camera is not found on device.');
+      a.setMessage(L('camera_error'));
     } else {
       a.setMessage('Error: ' + error.code);
     }
     a.show();
     win.close();
   },
-  overlay: overlay,
-  showControls: true,
-  transform: cameraZoom,
-  mediaTypes: Ti.Media.MEDIA_TYPE_PHOTO,
-  saveToPhotoGallery: false,
   allowEditing: false,
   allowImageEditing: false,
-  autohide: false
+  autohide: false,
+  mediaTypes: Ti.Media.MEDIA_TYPE_PHOTO,
+  overlay: overlay,
+  saveToPhotoGallery: false,
+  showControls: true,
+  transform: Ti.UI.create2DMatrix().scale(1)
 });
 
 // Add event part.
 btCamera.addEventListener('click', function () {
   var cameraWindow = Ti.UI.createWindow({
     url: 'camera.js',
-    title: 'Meow! Meow!'
+    title: L('voice')
   });
   cameraWindow.open();
 });
@@ -137,9 +150,9 @@ selectMedia.addEventListener('click', function (e) {
   switch (e.index) {
   case 0:
     var mailDialog = Ti.UI.createEmailDialog();
-    mailDialog.setMessageBody('Meow! Meow!');
     mailDialog.addAttachment(blobImage);
     mailDialog.setBarColor('#000');
+    mailDialog.setMessageBody(L('voice'));
     mailDialog.open();
     break;
   }

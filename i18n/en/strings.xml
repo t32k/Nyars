@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="exe">Choose Nekomimi</string>
+  <string name="black">Sexy Black</string>
+  <string name="white">Cinderella White</string>
+  <string name="cancel">Cancel</string>
+  <string name="color">Choose color of Nekomimi</string>
+  <string name="mail">Email</string>
+  <string name="send">Send your Nekomimi!</string>
+  <string name="camera_error">Camera is not found on device</string>
+  <string name="voice">Meow! Meow!</string>
+</resources>
