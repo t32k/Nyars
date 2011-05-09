@@ -1,6 +1,4 @@
-Ti.UI.setBackgroundColor('#111');
 var win = Ti.UI.currentWindow;
-
 var btCamera = Ti.UI.createButton({
   systemButton: Ti.UI.iPhone.SystemButton.CAMERA
 });
@@ -14,12 +12,11 @@ var toolbar = Ti.UI.createToolbar({
   items: [flexSpace, btCamera, flexSpace, btAction, flexSpace],
   bottom: 0,
   borderTop: true,
-  barColor: '#000',
+  barColor: '#111',
   translucent: true
 });
-
 var selectMedia = Ti.UI.createOptionDialog({
-  options: [ L('mail'), L('cancel') ],
+  options: [L('mail'), L('cancel')],
   cancel: 2,
   title: L('send')
 });
@@ -36,8 +33,8 @@ var msgView = Ti.UI.createView({
   width: 120,
   height: 40,
   borderRadius: 5,
-  backgroundColor: '#000',
-  opacity: 0.6,
+  backgroundColor: '#111',
+  opacity: 0.7,
   touchEnabled: false
 });
 var msgLabel = Ti.UI.createLabel({
@@ -54,59 +51,55 @@ var msgLabel = Ti.UI.createLabel({
 });
 msgView.add(msgLabel);
 msgWin.add(msgView);
-
-var blobImage;
 var ears = Ti.UI.createImageView({
   image: 'images/ears_' + Ti.App.earsColor + '.png',
   width: 186,
   height: 85,
   top: 45,
-	hires: true
+  hires: true
 });
 var overlay = Ti.UI.createView({
-	// Enable camera control UI.
-	touchEnabled: false
+  // Enable camera control UI.
+  touchEnabled: false
 });
 overlay.add(ears);
-
 // Start camera function.
 Ti.Media.showCamera({
   success: function (event) {
-		Ti.App.Analytics.trackPageview('/startup/camera/' + Ti.App.earsColor + '/takePicture');
-    var cameraView = Ti.UI.createImageView({
-      width: 320,
+    Ti.App.Analytics.trackPageview('/startup/camera/' + Ti.App.earsColor + '/takePicture');
+    // Fix aspect ratio. 4:3
+    var sView = Ti.UI.createImageView({
+      width: 360,
       height: 480,
       top: 0,
-      left: 0,
+      left: -20,
       image: event.media
     });
-		// To saved picture.
-		var saveEars = Ti.UI.createImageView({
-		  image: 'images/ears_' + Ti.App.earsColor + '.png',
-		  width: 186,
-		  height: 85,
-		  top: 45,
-			hires: true
-		});
-		var saveOverlay = Ti.UI.createView({});
-		saveOverlay.add(saveEars);
-    cameraView.add(saveOverlay);
-    var imageNew = cameraView.toImage(function (e) {
+    var sEars = Ti.UI.createImageView({
+      image: 'images/ears_' + Ti.App.earsColor + '.png',
+      width: 186,
+      height: 85,
+      top: 55,
+      hires: true
+    });
+    var sOverlay = Ti.UI.createView({});
+    sOverlay.add(sEars);
+    sView.add(sOverlay);
+    var imageNew = sView.toImage(function (e) {
       var filename1 = Ti.Filesystem.applicationDataDirectory + '/nyars.png';
       f = Ti.Filesystem.getFile(filename1);
       f.write(e.blob);
       Ti.Media.saveToPhotoGallery(f);
-      blobImage = f.toBlob();
       Ti.App.image = f.toBlob();
     });
-    win.add(cameraView);
+    win.add(sView);
     win.add(toolbar);
     Ti.Media.hideCamera();
     msgWin.open();
     setTimeout(function () {
       msgWin.close({
         opacity: 0,
-        duration: 750
+        duration: 2000
       });
     }, 2000);
   },
@@ -134,8 +127,7 @@ Ti.Media.showCamera({
   showControls: true,
   transform: Ti.UI.create2DMatrix().scale(1)
 });
-
-// Add event part.
+// Add event.
 btCamera.addEventListener('click', function () {
   var cameraWindow = Ti.UI.createWindow({
     url: 'camera.js',
@@ -150,8 +142,8 @@ selectMedia.addEventListener('click', function (e) {
   switch (e.index) {
   case 0:
     var mailDialog = Ti.UI.createEmailDialog();
-    mailDialog.addAttachment(blobImage);
-    mailDialog.setBarColor('#000');
+    mailDialog.addAttachment(Ti.App.image);
+    mailDialog.setBarColor('#111');
     mailDialog.setMessageBody(L('voice'));
     mailDialog.open();
     break;

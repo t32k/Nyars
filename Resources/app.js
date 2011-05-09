@@ -1,26 +1,31 @@
 // Google Analytics Tracking Code
 Ti.include('analytics.js');
 var analytics = new Analytics('UA-2317436-27');
-Ti.App.addEventListener('analytics_trackPageview', function(e){
-    var path = "/app/" + Ti.Platform.name;
-    analytics.trackPageview(path + e.pageUrl);
+Ti.App.addEventListener('analytics_trackPageview', function (e) {
+  var path = Ti.Platform.name;
+  analytics.trackPageview(path + e.pageUrl);
 });
-Ti.App.addEventListener('analytics_trackEvent', function(e){
-    analytics.trackEvent(e.category, e.action, e.label, e.value);
+Ti.App.addEventListener('analytics_trackEvent', function (e) {
+  analytics.trackEvent(e.category, e.action, e.label, e.value);
 });
 Ti.App.Analytics = {
-    trackPageview:function(pageUrl){
-        Ti.App.fireEvent('analytics_trackPageview', {pageUrl:pageUrl});
-    },
-    trackEvent:function(category, action, label, value){
-        Ti.App.fireEvent('analytics_trackEvent', {category:category, action:action, label:label, value:value});
-    }
+  trackPageview: function (pageUrl) {
+    Ti.App.fireEvent('analytics_trackPageview', {
+      pageUrl: pageUrl
+    });
+  },
+  trackEvent: function (category, action, label, value) {
+    Ti.App.fireEvent('analytics_trackEvent', {
+      category: category,
+      action: action,
+      label: label,
+      value: value
+    });
+  }
 };
 analytics.start(1);
-
 Ti.App.Analytics.trackPageview('/startup');
 Ti.UI.setBackgroundColor('#111');
-
 var win = Ti.UI.createWindow({
   title: 'Home',
   backgroundImage: 'images/bg.jpg'
@@ -31,10 +36,10 @@ var logo = Ti.UI.createImageView({
   height: 183,
   top: 93,
   left: 60,
-	hires: true
+  hires: true
 });
 var button = Ti.UI.createButton({
-  title:  L('exe'),
+  title: L('exe'),
   width: 180,
   height: 40,
   top: 320,
@@ -50,8 +55,8 @@ var button = Ti.UI.createButton({
   opacity: 0
 });
 var selectColor = Ti.UI.createOptionDialog({
-  options: [ L('black'), L('white'), L('cancel')],
-  cancel: 2,
+  options: [L('black'), L('white'), L('red'), L('cancel')],
+  cancel: 3,
   title: L('color')
 });
 var cameraWindow = Ti.UI.createWindow({
@@ -65,23 +70,25 @@ var startupAnimation = Ti.UI.createAnimation({
   delay: 100
 });
 button.animate(startupAnimation);
-
 // Add event part.
 button.addEventListener('click', function () {
   selectColor.show();
 });
 selectColor.addEventListener('click', function (e) {
-  if (e.index === 0) {
-		Ti.App.Analytics.trackPageview('/startup/camera/black');
+  switch (e.index) {
+  case 0:
     Ti.App.earsColor = 'black';
-    cameraWindow.open();
-  } else if (e.index === 1) {
-		Ti.App.Analytics.trackPageview('/startup/camera/white');
+    break;
+  case 1:
     Ti.App.earsColor = 'white';
-    cameraWindow.open();
+    break;
+  case 2:
+    Ti.App.earsColor = 'red';
+    break;
   }
+  Ti.App.Analytics.trackPageview('/startup/camera/' + Ti.App.earsColor);
+  cameraWindow.open();
 });
-
 // Add item to window.
 win.add(logo);
 win.add(button);
