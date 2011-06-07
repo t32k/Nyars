@@ -24,7 +24,8 @@ Ti.App.Analytics = {
   }
 };
 analytics.start(1);
-Ti.App.Analytics.trackPageview('/startup');
+Ti.App.Analytics.trackPageview('/startup/' + Ti.App.version);
+
 Ti.UI.setBackgroundColor('#111');
 var win = Ti.UI.createWindow({
   title: 'Home',
@@ -70,6 +71,7 @@ var startupAnimation = Ti.UI.createAnimation({
   delay: 100
 });
 button.animate(startupAnimation);
+
 // Add event part.
 button.addEventListener('click', function () {
   selectColor.show();
@@ -85,10 +87,14 @@ selectColor.addEventListener('click', function (e) {
   case 2:
     Ti.App.earsColor = 'red';
     break;
+  case 3:
+    selectColor.hide();
+    break;
   }
   Ti.App.Analytics.trackPageview('/startup/camera/' + Ti.App.earsColor);
   cameraWindow.open();
 });
+
 // Add item to window.
 win.add(logo);
 win.add(button);

@@ -2,7 +2,7 @@
 <ti:app xmlns:ti="http://ti.appcelerator.org">
 <id>me.t32k.nyars</id>
 <name>Nyars</name>
-<version>1.2</version>
+<version>1.3.0</version>
 <publisher>t32k</publisher>
 <url>http://twitter.com/t32k</url>
 <description>Take a picture with Nekomimi.</description>
